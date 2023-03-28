@@ -29,9 +29,9 @@ Easiest Way to do this is using the GraphDB docker image:
 1. Install docker in your system. Follow these instructions: https://docs.docker.com/engine/install/ubuntu/
 2. Start graphdb docker container using the following commands:<br>
     
-    `>docker pull dhlabbasel/graphdb-free`
+    `$docker pull dhlabbasel/graphdb-free`
 
-    `>docker run -it -p 7200:7200 --name graphdb -v <FOLDER CONTAINING KG TRIPLE FILES>:/opt/graphdb/home -v <PATH TO FOLDER CONTAINING KG TRIPLE FILES>/graphdb/:/graphdb/data/ -t dhlabbasel/graphdb-free` 
+    `$docker run -it -p 7200:7200 --name graphdb -v <FOLDER CONTAINING KG TRIPLE FILES>:/opt/graphdb/home -v <PATH TO FOLDER CONTAINING KG TRIPLE FILES>/graphdb/:/graphdb/data/ -t dhlabbasel/graphdb-free` 
 
     Do not close the terminal on which this is running. It will stop the container.
 
@@ -42,13 +42,13 @@ Easiest Way to do this is using the GraphDB docker image:
     For uploading using command line, follow this process:
     1. Go to the terminal tab in which the GraphDB container was started and close the contained using Ctrl+C
     2. Again start the docker container using:<br> 
-        `>docker start graphdb`
+        `$docker start graphdb`
     3. Go to the docker container shell using:<br>
-        `>docker exec –it graphdb bash` 
+        `$docker exec –it graphdb bash` 
     4. Go to the root of the container:<br>
-        `>cd /`
+        `$cd /`
     5. Run the command to load the data:<br>
-        `>graphdb/bin/loadrdf -f -i wikidata_life_sciences -m parallel opt/graphdb/home/<FOLDER CONTAINING KG TRIPLE FILES>/*` 
+        `$graphdb/bin/loadrdf -f -i wikidata_life_sciences -m parallel opt/graphdb/home/<FOLDER CONTAINING KG TRIPLE FILES>/*` 
     
     Using the above procedure, the data will be loaded into a single KG (repository) called wikidata_life_sciences.
     Users can query the KG using either the GUI (GraphDB Workbench) or API.
