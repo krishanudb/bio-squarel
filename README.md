@@ -1,4 +1,5 @@
-# bio-squarel
+# Bio-SQuAREL
+### Biomedical Simple Question Answering using Relation and Entity Linking
 
 This contains code for the bio-squarel methodology for answering natural language questions using Wikidata. 
 
