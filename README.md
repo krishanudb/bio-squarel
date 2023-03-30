@@ -7,6 +7,12 @@ This codebase has been tested to run on Linux Ubuntu systems, and multiple tweak
 
 In order to run the methodology of this repo, the following steps need to be followed:
 
+## 0. Set up the environment:
+
+Create a new environment using the requirements.txt file. The recommended way is to use conda to manage and create a new environment:<br>
+    `conda create --name <ENV_NAME> --file requirements.txt`
+
+
 ## 1. Get the biomedical sub Knowledge Graph of Wikidata along with associated files from here: 
 
 1. Download the data from here:
