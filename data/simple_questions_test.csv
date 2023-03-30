@@ -1,0 +1,153 @@
+,0,1,"query","relations","primary","primary_rel"
+0,"What is the maximum incubation period for COVID-19?","select ?item where {
+  wd:Q84263196 wdt:P3487 ?item .
+}","['wd:Q84263196 wdt:P3487 ?item']","['wdt:P3487']","wd:Q84263196","wdt:P3487"
+1,"Where is the protein Pannexin1 located?","select ?item ?itemLabel
+where {
+  wd:Q21123725 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21123725 wdt:P681 ?item']","['wdt:P681']","wd:Q21123725","wdt:P681"
+2,"What indication is FTY720 used in?","select ?item ?itemLabel
+Where {
+  wd:Q425137 wdt:P2175 ?item .
+    ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q425137 wdt:P2175 ?item']","['wdt:P2175']","wd:Q425137","wdt:P2175"
+3,"Which is the molecular target of the immunosuppressant drug Rapamycin?","select ?item ?itemLabel
+Where {
+  wd:Q32089 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q32089 wdt:P129 ?item']","['wdt:P129']","wd:Q32089","wdt:P129"
+4,"Which receptor is blocked by Finerenone?","select ?item ?itemLabel
+where {
+  wd:Q21099046 wdt:P129 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21099046 wdt:P129 ?item']","['wdt:P129']","wd:Q21099046","wdt:P129"
+5,"What is the function of the protein SERT?","select ?item where {
+  wd:Q410142 wdt:P680 ?item .
+}","['wd:Q410142 wdt:P680 ?item']","['wdt:P680']","wd:Q410142","wdt:P680"
+6,"What is the enzymatic activity of PARL?","select ?item ?itemLabel
+Where {
+  wd:Q21133412 wdt:P680 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21133412 wdt:P680 ?item']","['wdt:P680']","wd:Q21133412","wdt:P680"
+7,"Which is the target protein of the drug nivolumab?","select ?item ?itemLabel
+Where {
+  wd:Q7041828 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7041828 wdt:P129 ?item']","['wdt:P129']","wd:Q7041828","wdt:P129"
+8,"Where is the protein ""Single-stranded DNA-binding protein"" found?","select ?item where {
+  wd:Q21109589 wdt:P681 ?item .
+}","['wd:Q21109589 wdt:P681 ?item']","['wdt:P681']","wd:Q21109589","wdt:P681"
+9,"What are the groups of viruses in the Baltimore Classification?","select ?item ?itemLabel
+where {
+  wd:Q782725 wdt:P527 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q782725 wdt:P527 ?item']","['wdt:P527']","wd:Q782725","wdt:P527"
+10,"What is the indication for valbenazine?","select ?item ?itemLabel
+Where {
+  wd:Q27089118 wdt:P2175 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q27089118 wdt:P2175 ?item']","['wdt:P2175']","wd:Q27089118","wdt:P2175"
+11,"Where is the EpCam protein mainly located?","select ?item ?itemLabel
+Where {
+  wd:Q5383694 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q5383694 wdt:P681 ?item']","['wdt:P681']","wd:Q5383694","wdt:P681"
+12,"What causes leishmaniasis?","select ?item ?itemLabel
+Where {
+  wd:Q331283 wdt:P828 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q331283 wdt:P828 ?item']","['wdt:P828']","wd:Q331283","wdt:P828"
+13,"What are the current treatments for generalised anxiety disorder?","select distinct ?item where {
+   wd:Q845224 wdt:P2176 ?item.
+}","['wd:Q845224 wdt:P2176 ?item']","['wdt:P2176']","wd:Q845224","wdt:P2176"
+14,"What is drug target for olaparib?","select ?item ?itemLabel
+Where {
+  wd:Q7083106 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q7083106 wdt:P129 ?item']","['wdt:P129']","wd:Q7083106","wdt:P129"
+15,"Which are the types of viral meningitis?","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q3301664 . 
+}","['?item (wdt:P31|wdt:P279)* wd:Q3301664']","['(wdt:P31|wdt:P279)*']","wd:Q3301664","(wdt:P31|wdt:P279)*"
+16,"What is the mode of inheritance of Wilsons disease?","select ?item ?itemLabel
+where {
+  wd:Q117121 wdt:P1199 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q117121 wdt:P1199 ?item']","['wdt:P1199']","wd:Q117121","wdt:P1199"
+17,"List places in the body where somatostatin is produced.","select distinct ?item where {
+  wd:Q14860836 wdt:P5572 ?item .
+}","['wd:Q14860836 wdt:P5572 ?item']","['wdt:P5572']","wd:Q14860836","wdt:P5572"
+18,"Which are the main components of mTORC1?","select distinct ?item where {
+  wd:Q107514772 wdt:P527 ?item .
+}","['wd:Q107514772 wdt:P527 ?item']","['wdt:P527']","wd:Q107514772","wdt:P527"
+19,"List types of mutations.","select distinct ?item where {
+  ?item wdt:P279 wd:Q42918 .
+}
+","['?item wdt:P279 wd:Q42918']","['wdt:P279']","wd:Q42918","wdt:P279"
+20,"List the different subtypes of thyroid cancer.","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q826522 .
+}
+","['?item (wdt:P31|wdt:P279)* wd:Q826522']","['(wdt:P31|wdt:P279)*']","wd:Q826522","(wdt:P31|wdt:P279)*"
+21,"What is the function of lysozyme?","select ?item ?itemLabel
+where {
+  wd:Q21114915 wdt:P682 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21114915 wdt:P682 ?item']","['wdt:P682']","wd:Q21114915","wdt:P682"
+22,"What is the molecular function of the Chd1 protein?","select ?item ?itemLabel 
+Where {   
+wd:Q21115640 wdt:P680 ?item .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q21115640 wdt:P680 ?item']","['wdt:P680']","wd:Q21115640","wdt:P680"
+23,"What is the cellular location of APOBEC3B protein?","select ?item ?itemLabel
+Where {
+  wd:Q21115268 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21115268 wdt:P681 ?item']","['wdt:P681']","wd:Q21115268","wdt:P681"
+24,"What is the drug Tecfidera used against?","select ?item ?itemLabel
+Where {
+  wd:Q29006540 wdt:P4044 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q29006540 wdt:P4044 ?item']","['wdt:P4044']","wd:Q29006540","wdt:P4044"
+25,"What is the active ingredient in the most common hand sanitizer?","select distinct ?item where {
+  wd:Q520181 wdt:P527 ?item .
+}","['wd:Q520181 wdt:P527 ?item']","['wdt:P527']","wd:Q520181","wdt:P527"
+26,"What is the function of the protein calreticulin?","select ?item where {
+  wd:Q634510 wdt:P680 ?item .
+}","['wd:Q634510 wdt:P680 ?item']","['wdt:P680']","wd:Q634510","wdt:P680"
+27,"What are the symptoms of yellow fever?","select distinct ?item where {
+  wd:Q154874 wdt:P780 ?item .
+}","['wd:Q154874 wdt:P780 ?item']","['wdt:P780']","wd:Q154874","wdt:P780"
+28,"List symptoms of 4H leukodystrophy.","select distinct ?item where {
+  wd:Q106975812 wdt:P780 ?item .
+}","['wd:Q106975812 wdt:P780 ?item']","['wdt:P780']","wd:Q106975812","wdt:P780"
+29,"Please list symptoms of measles.","select distinct ?item where {
+  wd:Q79793 wdt:P780 ?item .
+}","['wd:Q79793 wdt:P780 ?item']","['wdt:P780']","wd:Q79793","wdt:P780"
+30,"Which is the cellular target of gefitinib?","select ?item ?itemLabel
+Where {
+  wd:Q417824 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q417824 wdt:P129 ?item']","['wdt:P129']","wd:Q417824","wdt:P129"
+31,"List Mcl-1 inhibitors.","select distinct ?item where {
+  wd:Q21112678 wdt:P129 ?item .
+}","['wd:Q21112678 wdt:P129 ?item']","['wdt:P129']","wd:Q21112678","wdt:P129"

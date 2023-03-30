@@ -1,0 +1,661 @@
+,0,1,"query","relations","primary","primary_rel"
+0,"What is generic name of drug Adempas?","select ?item ?itemLabel
+Where {
+  wd:Q29004385 wdt:P3781 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q29004385 wdt:P3781 ?item']","['wdt:P3781']","wd:Q29004385","wdt:P3781"
+1,"What is the activity of Indoleamine 2,3-dioxygenase 1.","select ?item where {
+  wd:Q908221 wdt:P681 ?item .
+}","['wd:Q908221 wdt:P681 ?item']","['wdt:P681']","wd:Q908221","wdt:P681"
+2,"Which is the target of the drug Denosumab?","select ?item ?itemLabel
+Where {
+  wd:Q408283 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q408283 wdt:P129 ?item']","['wdt:P129']","wd:Q408283","wdt:P129"
+3,"Of what origin is the MCF-7 cell line?","select ?item ?itemLabel
+Where {
+  wd:Q1881253 wdt:P5166 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1881253 wdt:P5166 ?item']","['wdt:P5166']","wd:Q1881253","wdt:P5166"
+4,"What is the target of the drug Olaparib?","select ?item ?itemLabel 
+Where {   
+wd:Q7083106 wdt:P129 ?item .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q7083106 wdt:P129 ?item']","['wdt:P129']","wd:Q7083106","wdt:P129"
+5,"List the drug targets of Faricimab?","select ?item where {
+  wd:Q60785557 wdt:P129 ?item .
+}
+","['wd:Q60785557 wdt:P129 ?item']","['wdt:P129']","wd:Q60785557","wdt:P129"
+6,"What is the results of mutations in the gene autoimmune regulator?","select ?item ?itemLabel
+Where {
+  ?item wdt:P2293 wd:Q14907298 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['?item wdt:P2293 wd:Q14907298']","['wdt:P2293']","wd:Q14907298","wdt:P2293"
+7,"Where are Paneth cells located?","select ?item ?itemLabel
+Where {
+  wd:Q2004084 wdt:P927 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q2004084 wdt:P927 ?item']","['wdt:P927']","wd:Q2004084","wdt:P927"
+8,"What is the minimum incubation period for COVID-19?","select ?item where {
+  wd:Q84263196 wdt:P3488 ?item .
+}","['wd:Q84263196 wdt:P3488 ?item']","['wdt:P3488']","wd:Q84263196","wdt:P3488"
+9,"What is the drug forxiga used for?","select ?item ?itemLabel
+Where {
+  wd:Q29005884 wdt:P4044 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q29005884 wdt:P4044 ?item']","['wdt:P4044']","wd:Q29005884","wdt:P4044"
+10,"What is the mode of inheritance of Facioscapulohumeral muscular dystrophy (FSHD)?","select ?item ?itemLabel
+Where {
+  wd:Q1399182 wdt:P1199 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1399182 wdt:P1199 ?item']","['wdt:P1199']","wd:Q1399182","wdt:P1199"
+11,"List indications for Bupropion","select distinct ?item where {
+  wd:Q834280 wdt:P2175 ?item .
+}","['wd:Q834280 wdt:P2175 ?item']","['wdt:P2175']","wd:Q834280","wdt:P2175"
+12,"What is the function of Plasminogen activator inhibitor 1?","select ?item ?itemLabel
+Where {
+  wd:Q410485 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q410485 wdt:P682 ?item']","['wdt:P682']","wd:Q410485","wdt:P682"
+13,"What is the inheritance pattern of Huntingtons disease?","select ?item ?itemLabel
+Where {
+  wd:Q190564 wdt:P1199 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q190564 wdt:P1199 ?item']","['wdt:P1199']","wd:Q190564","wdt:P1199"
+14,"Which human gene encode for DNA polymerase θ?","select ?item ?itemLabel
+Where {
+  wd:Q21101126 wdt:P702 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21101126 wdt:P702 ?item']","['wdt:P702']","wd:Q21101126","wdt:P702"
+15,"What is the mechanism of action of Brigatinib?","select ?item ?itemLabel
+Where {
+  wd:Q4653190 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q4653190 wdt:P129 ?item']","['wdt:P129']","wd:Q4653190","wdt:P129"
+16,"What is the function of the protein PIEZO1?","select ?item where {
+  wd:Q21173847 wdt:P680 ?item .
+}","['wd:Q21173847 wdt:P680 ?item']","['wdt:P680']","wd:Q21173847","wdt:P680"
+17,"Which is the chromosomal location of the gene MAOA?","select ?item ?itemLabel
+Where {
+  wd:Q14888415 wdt:P4196 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q14888415 wdt:P4196 ?item']","['wdt:P4196']","wd:Q14888415","wdt:P4196"
+18,"Where can you find the annulus of Zinn?","select ?item ?itemLabel
+Where {
+  wd:Q612431 wdt:P927 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q612431 wdt:P927 ?item']","['wdt:P927']","wd:Q612431","wdt:P927"
+19,"What is the origin of  HEp-2 cells?","select ?item where {
+  wd:Q16554737 wdt:P5166 ?item .
+}","['wd:Q16554737 wdt:P5166 ?item']","['wdt:P5166']","wd:Q16554737","wdt:P5166"
+20,"What is the function of osteolectin?","select ?item ?itemLabel
+where {
+  wd:Q21114195 wdt:P682 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21114195 wdt:P682 ?item']","['wdt:P682']","wd:Q21114195","wdt:P682"
+21,"What antibiotic is currently used against Clostridium Difficile infection?","select ?item ?itemLabel
+Where {
+  wd:Q574905 wdt:P2176 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q574905 wdt:P2176 ?item']","['wdt:P2176']","wd:Q574905","wdt:P2176"
+22,"Which is the  subcellular localization of ERAP2?","select ?item ?itemLabel
+Where {
+  wd:Q21130620 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21130620 wdt:P681 ?item']","['wdt:P681']","wd:Q21130620","wdt:P681"
+23,"What is the function of the protein SLC26A5?","select ?item where {
+  wd:Q3402672 wdt:P680 ?item .
+}","['wd:Q3402672 wdt:P680 ?item']","['wdt:P680']","wd:Q3402672","wdt:P680"
+24,"What is the cause of Sandhoff disease?","select ?item ?itemLabel
+Where {
+  wd:Q917227 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q917227 wdt:P2293 ?item']","['wdt:P2293']","wd:Q917227","wdt:P2293"
+25,"Which conditions is caused by mutations in HFE?","select ?item ?itemLabel
+Where {
+  wd:Q14890978 wdt:P2293 ?item .
+    ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q14890978 wdt:P2293 ?item']","['wdt:P2293']","wd:Q14890978","wdt:P2293"
+26,"What is the indication of Daonil (Glibenclamide)?","select ?item ?itemLabel
+Where {
+  wd:Q420626 wdt:P2175 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q420626 wdt:P2175 ?item']","['wdt:P2175']","wd:Q420626","wdt:P2175"
+27,"What is the function of the transcriptional co-activator p300?","select ?item ?itemLabel
+Where {
+  wd:Q21107967 wdt:P680 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21107967 wdt:P680 ?item']","['wdt:P680']","wd:Q21107967","wdt:P680"
+28,"What is the indication for Truvada?","select ?item ?itemLabel
+Where {
+  wd:Q29006607 wdt:P4044 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q29006607 wdt:P4044 ?item']","['wdt:P4044']","wd:Q29006607","wdt:P4044"
+29,"What is the function of calcium-sensing receptor (CaSR)?","select ?item ?itemLabel
+Where {
+  wd:Q417801 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q417801 wdt:P682 ?item']","['wdt:P682']","wd:Q417801","wdt:P682"
+30,"What is the target protein of the drug Idelalisib?","select ?item ?itemLabel
+Where {
+  wd:Q5908266 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q5908266 wdt:P129 ?item']","['wdt:P129']","wd:Q5908266","wdt:P129"
+31,"List symptoms of the Zieve's syndrome.","select distinct ?item where {
+  wd:Q199295 wdt:P780 ?item .
+}","['wd:Q199295 wdt:P780 ?item']","['wdt:P780']","wd:Q199295","wdt:P780"
+32,"List symptoms of the IFAP syndrome.","select distinct ?item where {
+  wd:Q5986440 wdt:P780 ?item .
+}","['wd:Q5986440 wdt:P780 ?item']","['wdt:P780']","wd:Q5986440","wdt:P780"
+33,"List signs of patients with mutations in KARS1","select ?item where {
+  wd:Q18028112 wdt:P2293 ?item .
+}
+","['wd:Q18028112 wdt:P2293 ?item']","['wdt:P2293']","wd:Q18028112","wdt:P2293"
+34,"What is the function of BAX","select ?item ?itemLabel
+Where {
+  wd:Q408476 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q408476 wdt:P682 ?item']","['wdt:P682']","wd:Q408476","wdt:P682"
+35,"What are the indications for alteplase?","select distinct ?item where {
+  wd:Q45769835 wdt:P2175 ?item .
+}","['wd:Q45769835 wdt:P2175 ?item']","['wdt:P2175']","wd:Q45769835","wdt:P2175"
+36,"What is the causative agent of the ""Panama disease"" affecting bananas?","select ?item ?itemLabel 
+Where {   
+wd:Q3240031 wdt:P828 ?item .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q3240031 wdt:P828 ?item']","['wdt:P828']","wd:Q3240031","wdt:P828"
+37,"Which is the subcellular localization of the protein angiogenin?","select ?item ?itemLabel
+Where {
+  wd:Q2043052 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q2043052 wdt:P681 ?item']","['wdt:P681']","wd:Q2043052","wdt:P681"
+38,"Which is the causative agent of malaria?","select ?item ?itemLabel
+Where {
+  wd:Q12156 wdt:P828 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q12156 wdt:P828 ?item']","['wdt:P828']","wd:Q12156","wdt:P828"
+39,"Which is the receptor for the immunosuppressive drug cyclosporin A (CsA)?","select ?item ?itemLabel
+Where {
+  wd:Q367700 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q367700 wdt:P129 ?item']","['wdt:P129']","wd:Q367700","wdt:P129"
+40,"What are the side effects of Nalmefene?","select distinct ?item where {
+  wd:Q4353252 wdt:P1909 ?item .
+}","['wd:Q4353252 wdt:P1909 ?item']","['wdt:P1909']","wd:Q4353252","wdt:P1909"
+41,"Where in the body would the navicular bone be found?","select ?item ?itemLabel
+Where {
+  wd:Q958194 wdt:P927 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q958194 wdt:P927 ?item']","['wdt:P927']","wd:Q958194","wdt:P927"
+42,"Which factor is bound by Milvexian?","select ?item where {
+  wd:Q111172579 wdt:P2789 ?item .
+}","['wd:Q111172579 wdt:P2789 ?item']","['wdt:P2789']","wd:Q111172579","wdt:P2789"
+43,"What is the function of the protein Magt1?","select ?item ?itemLabel
+Where {
+  wd:Q21107967 wdt:P680 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21107967 wdt:P680 ?item']","['wdt:P680']","wd:Q21107967","wdt:P680"
+44,"What is the primary indication of tocilizumab?","select ?item ?itemLabel
+Where {
+  wd:Q425154 wdt:P2175 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q425154 wdt:P2175 ?item']","['wdt:P2175']","wd:Q425154","wdt:P2175"
+45,"Where in the body, is ghrelin secreted?","select ?item ?itemLabel
+Where {
+  wd:Q21163357 wdt:P5572 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21163357 wdt:P5572 ?item']","['wdt:P5572']","wd:Q21163357","wdt:P5572"
+46,"What causes Black Lung?","select ?item ?itemLabel
+Where {
+  wd:Q574329 wdt:P828 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q574329 wdt:P828 ?item']","['wdt:P828']","wd:Q574329","wdt:P828"
+47,"Where are the A-type lamins expressed?","select ?item ?itemLabel
+Where {
+  wd:Q14911829 wdt:P5572 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q14911829 wdt:P5572 ?item']","['wdt:P5572']","wd:Q14911829","wdt:P5572"
+48,"What are the indications for hydrochlorothiazide?","select distinct ?item where {
+   wd:Q423930 wdt:P2175 ?item.
+}","['wd:Q423930 wdt:P2175 ?item']","['wdt:P2175']","wd:Q423930","wdt:P2175"
+49,"What is the gene ABCG1 encoding?","select ?item where {
+  wd:Q18034442 wdt:P688 ?item .
+}","['wd:Q18034442 wdt:P688 ?item']","['wdt:P688']","wd:Q18034442","wdt:P688"
+50,"List fluorescent reporter proteins.","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q55643886 .
+}","['?item (wdt:P31|wdt:P279)* wd:Q55643886']","['(wdt:P31|wdt:P279)*']","wd:Q55643886","(wdt:P31|wdt:P279)*"
+51,"What does AZD0530 target?","select ?item ?itemLabel
+Where {
+  wd:Q21098957 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q21098957 wdt:P129 ?item']","['wdt:P129']","wd:Q21098957","wdt:P129"
+52,"List all indications for Glivec","select distinct ?item where {
+   wd:Q29005907 wdt:P4044 ?item.
+}","['wd:Q29005907 wdt:P4044 ?item']","['wdt:P4044']","wd:Q29005907","wdt:P4044"
+53,"Which is the enzymatic activity of OTULIN?","select ?item ?itemLabel
+Where {
+  wd:Q21112127 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21112127 wdt:P682 ?item']","['wdt:P682']","wd:Q21112127","wdt:P682"
+54,"What causes Ocular Thelaziasis?","select ?item where {
+  wd:Q2090711 wdt:P828 ?item .
+}","['wd:Q2090711 wdt:P828 ?item']","['wdt:P828']","wd:Q2090711","wdt:P828"
+55,"List 2 approved drug treatments for Inflammatory Bowel Disease (IBD).","select distinct ?item where {
+  wd:Q917447 wdt:P2176 ?item .
+}","['wd:Q917447 wdt:P2176 ?item']","['wdt:P2176']","wd:Q917447","wdt:P2176"
+56,"What is the first line treatment for sarcoidosis?","select ?item ?itemLabel
+Where {
+  wd:Q193894 wdt:P924 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q193894 wdt:P924 ?item']","['wdt:P924']","wd:Q193894","wdt:P924"
+57,"Which are the lactate isomers?","select distinct ?item where {
+  ?item wdt:P31 wd:Q161249 .
+}","['?item wdt:P31 wd:Q161249']","['wdt:P31']","wd:Q161249","wdt:P31"
+58,"Which receptor is targeted by Spesolimab?","select ?item where {
+  wd:Q111172579 wdt:P2789 ?item .
+}","['wd:Q111172579 wdt:P2789 ?item']","['wdt:P2789']","wd:Q111172579","wdt:P2789"
+59,"List the components of mTOR Complex 2 (mTORC2).","select distinct ?item where {
+  wd:Q107515523 wdt:P527 ?item .
+}","['wd:Q107515523 wdt:P527 ?item']","['wdt:P527']","wd:Q107515523","wdt:P527"
+60,"From where is gamabufotalin (GBT) isolated?","select ?item ?itemLabel
+Where {
+  wd:Q27149869 wdt:P703 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q27149869 wdt:P703 ?item']","['wdt:P703']","wd:Q27149869","wdt:P703"
+61,"When is the drug Ivermectin used?","select ?item where {
+  wd:Q415178 wdt:P2175 ?item .
+}","['wd:Q415178 wdt:P2175 ?item']","['wdt:P2175']","wd:Q415178","wdt:P2175"
+62,"What is the indication for isradipine?","select ?item ?itemLabel
+Where {
+  wd:Q414873 wdt:P2175 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q414873 wdt:P2175 ?item']","['wdt:P2175']","wd:Q414873","wdt:P2175"
+63,"What is the mode of inheritance of Facioscapulohumeral muscular dystrophy (FSHD)?","select ?item ?itemLabel
+where {
+  wd:Q1399182 wdt:P1199 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q1399182 wdt:P1199 ?item']","['wdt:P1199']","wd:Q1399182","wdt:P1199"
+64,"What are the roles of LEM-3?","select distinct ?item where {
+  wd:Q29793364 wdt:P682 ?item .
+}","['wd:Q29793364 wdt:P682 ?item']","['wdt:P682']","wd:Q29793364","wdt:P682"
+65,"What are the main indications of lacosamide?","select distinct ?item where {
+  wd:Q420077 wdt:P2175 ?item .
+}","['wd:Q420077 wdt:P2175 ?item']","['wdt:P2175']","wd:Q420077","wdt:P2175"
+66,"For what indications is thalidomide currently marketed?","select distinct ?item where {
+  wd:Q203174 wdt:P2175 ?item .
+}","['wd:Q203174 wdt:P2175 ?item']","['wdt:P2175']","wd:Q203174","wdt:P2175"
+67,"What is the disease associated with the gene PRDM12?","select ?item ?itemLabel
+Where {
+  ?item wdt:P2293 wd:Q18045154 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['?item wdt:P2293 wd:Q18045154']","['wdt:P2293']","wd:Q18045154","wdt:P2293"
+68,"What is the SPRTN protein function?","select ?item where {
+  wd:Q21122101 wdt:P680 ?item .
+}","['wd:Q21122101 wdt:P680 ?item']","['wdt:P680']","wd:Q21122101","wdt:P680"
+69,"Which are the major types of the motor speech disorder dysarthria?","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279) wd:Q225957 .
+}","['?item (wdt:P31|wdt:P279) wd:Q225957']","['(wdt:P31|wdt:P279)']","wd:Q225957","(wdt:P31|wdt:P279)"
+70,"Which gene is frequently involved in autosomal dominant adult-onset demyelinating leukodystrophy (ADLD)?","select ?item ?itemLabel
+Where {
+  wd:Q28065590 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q28065590 wdt:P2293 ?item']","['wdt:P2293']","wd:Q28065590","wdt:P2293"
+71,"What is the indication for Mirabegron?","select ?item ?itemLabel
+Where {
+  wd:Q3702534 wdt:P2175 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q3702534 wdt:P2175 ?item']","['wdt:P2175']","wd:Q3702534","wdt:P2175"
+72,"Please list 6 symptoms of Scarlet fever.","select distinct ?item where {
+  wd:Q180266 wdt:P780 ?item .
+}","['wd:Q180266 wdt:P780 ?item']","['wdt:P780']","wd:Q180266","wdt:P780"
+73,"Where is the TAZ (G4.5) is located in humans?","select ?item ?itemLabel
+Where {
+  wd:Q14881093 wdt:P4196 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q14881093 wdt:P4196 ?item']","['wdt:P4196']","wd:Q14881093","wdt:P4196"
+74,"What is the effect of a defective CLN3 gene?","select ?item ?itemLabel
+Where {
+  wd:Q14905126 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q14905126 wdt:P2293 ?item']","['wdt:P2293']","wd:Q14905126","wdt:P2293"
+75,"What are the 4 types of holoprosencephaly?","select distinct ?item where {
+  ?item wdt:P279 wd:Q1459821 .
+}
+","['?item wdt:P279 wd:Q1459821']","['wdt:P279']","wd:Q1459821","wdt:P279"
+76,"List symptoms of Heerfordt syndrome.","select distinct ?item where {
+  wd:Q1593605 wdt:P780 ?item .
+}","['wd:Q1593605 wdt:P780 ?item']","['wdt:P780']","wd:Q1593605","wdt:P780"
+77,"List the essential aminoacids.","select distinct ?item where {
+  ?item wdt:P31 wd:Q245282 .
+}","['?item wdt:P31 wd:Q245282']","['wdt:P31']","wd:Q245282","wdt:P31"
+78,"What are the types of ultraviolet (UV) solar radiation?","select distinct ?item where {
+  wd:Q11391 wdt:P527 ?item .
+}","['wd:Q11391 wdt:P527 ?item']","['wdt:P527']","wd:Q11391","wdt:P527"
+79,"Where is the respirasome located?","select ?item ?itemLabel
+Where {
+  wd:Q909199 wdt:P361 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q909199 wdt:P361 ?item']","['wdt:P361']","wd:Q909199","wdt:P361"
+80,"List pore forming toxins.","select distinct ?item where {
+  ?item wdt:P279 wd:Q7230047 .
+}","['?item wdt:P279 wd:Q7230047']","['wdt:P279']","wd:Q7230047","wdt:P279"
+81,"What is the trade name of sildenafil?","select ?item ?itemLabel
+Where {
+  wd:Q191521 wdt:P3780 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q191521 wdt:P3780 ?item']","['wdt:P3780']","wd:Q191521","wdt:P3780"
+82,"What is the drug target for Eliquis (Apixaban)?","select ?item ?itemLabel
+Where {
+  wd:Q414462 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q414462 wdt:P129 ?item']","['wdt:P129']","wd:Q414462","wdt:P129"
+83,"What is the role of ficolin?","select ?item ?itemLabel
+Where {
+  wd:Q21101395 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21101395 wdt:P682 ?item']","['wdt:P682']","wd:Q21101395","wdt:P682"
+84,"Andexanet Alfa consists of which clotting factor?","select ?item ?itemLabel
+Where {
+  wd:Q7120529 wdt:P3781 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7120529 wdt:P3781 ?item']","['wdt:P3781']","wd:Q7120529","wdt:P3781"
+85,"What causes Katayama Fever?","select ?item ?itemLabel
+Where {
+  wd:Q18553329 wdt:P828 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q18553329 wdt:P828 ?item']","['wdt:P828']","wd:Q18553329","wdt:P828"
+86,"Which is the target of bortezomib used in cancer therapy?","select ?item ?itemLabel
+Where {
+  wd:Q419319 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q419319 wdt:P129 ?item']","['wdt:P129']","wd:Q419319","wdt:P129"
+87,"List symptoms of Hakim Triad.","select distinct ?item where {
+  wd:Q1442701 wdt:P780 ?item .
+}","['wd:Q1442701 wdt:P780 ?item']","['wdt:P780']","wd:Q1442701","wdt:P780"
+88,"Where is the protein Bouncer located?","select ?item ?itemLabel
+Where {
+  wd:Q60066550 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q60066550 wdt:P681 ?item']","['wdt:P681']","wd:Q60066550","wdt:P681"
+89,"Which is the cellular localization of the protein Opa1?","select ?item ?itemLabel 
+Where {   
+wd:Q21106682 wdt:P681 ?item .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q21106682 wdt:P681 ?item']","['wdt:P681']","wd:Q21106682","wdt:P681"
+90,"Where are integrins localized in a cell?","select ?item ?itemLabel
+Where {
+  wd:Q14904985 wdt:P361 ?item .
+    ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q14904985 wdt:P361 ?item']","['wdt:P361']","wd:Q14904985","wdt:P361"
+91,"Which syndromes are caused by LAMA1 mutations?","select ?item where {
+  wd:Q11931131 wdt:P2293 ?item .
+}","['wd:Q11931131 wdt:P2293 ?item']","['wdt:P2293']","wd:Q11931131","wdt:P2293"
+92,"What is the role of IL-18BP?","select ?item ?itemLabel
+Where {
+  wd:Q21103365 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21103365 wdt:P682 ?item']","['wdt:P682']","wd:Q21103365","wdt:P682"
+93,"What is the drug target(s) for Belsomra?","select ?item ?itemLabel
+Where {
+  wd:Q7650517 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7650517 wdt:P129 ?item']","['wdt:P129']","wd:Q7650517","wdt:P129"
+94,"What is the inheritance pattern of Hunter disease or mucopolysaccharidosis II?","select ?item ?itemLabel
+Where {
+  wd:Q1529983 wdt:P1199 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1529983 wdt:P1199 ?item']","['wdt:P1199']","wd:Q1529983","wdt:P1199"
+95,"Where is the the protein perforin localized?","select ?item where {
+  wd:Q21103279 wdt:P681 ?item .
+}","['wd:Q21103279 wdt:P681 ?item']","['wdt:P681']","wd:Q21103279","wdt:P681"
+96,"Which phenotypes are associated with mutations of the BSCL2 gene?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q18038304 .
+}","['?item wdt:P2293 wd:Q18038304']","['wdt:P2293']","wd:Q18038304","wdt:P2293"
+97,"Name two rotavirus vaccines.","select distinct ?item where {
+  ?item wdt:P31|wdt:P279 wd:Q4411598 .
+}","['?item wdt:P31|wdt:P279 wd:Q4411598']","['wdt:P31|wdt:P279']","wd:Q4411598","wdt:P31|wdt:P279"
+98,"How is oprozomib administered?","select ?item ?itemLabel 
+Where {   
+wd:Q25104721 wdt:P636 ?item .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q25104721 wdt:P636 ?item']","['wdt:P636']","wd:Q25104721","wdt:P636"
+99,"What is the cause if the rare disease cystinosis?","select ?item ?itemLabel
+Where {
+  wd:Q1149042 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1149042 wdt:P2293 ?item']","['wdt:P2293']","wd:Q1149042","wdt:P2293"
+100,"What is the drug Aduhelm approved for?","select ?item where {
+  wd:Q15708278 wdt:P2175 ?item .
+}","['wd:Q15708278 wdt:P2175 ?item']","['wdt:P2175']","wd:Q15708278","wdt:P2175"
+101,"What is the generic name of Gliolan?","select ?item ?itemLabel 
+Where {   
+wd:Q29005906 wdt:P3781 ?item .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q29005906 wdt:P3781 ?item']","['wdt:P3781']","wd:Q29005906","wdt:P3781"
+102,"What is the Triad of Alport Syndrome?","select distinct ?item where {
+  wd:Q1331116 wdt:P780 ?item .
+}","['wd:Q1331116 wdt:P780 ?item']","['wdt:P780']","wd:Q1331116","wdt:P780"
+103,"List uses for Rituximab.","select distinct ?item where {
+  wd:Q412323 wdt:P2175 ?item .
+}","['wd:Q412323 wdt:P2175 ?item']","['wdt:P2175']","wd:Q412323","wdt:P2175"
+104,"Which is the main target of the anti-arrhythmic activity of flecainide?","select ?item ?itemLabel
+Where {
+  wd:Q421381 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q421381 wdt:P129 ?item']","['wdt:P129']","wd:Q421381","wdt:P129"
+105,"Which molecule is targeted by Olaratumab?","select ?item ?itemLabel
+Where {
+  wd:Q7083108 wdt:P129 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7083108 wdt:P129 ?item']","['wdt:P129']","wd:Q7083108","wdt:P129"
+106,"When ceritinib is used?","select distinct ?item where {
+  wd:Q21011233 wdt:P2175 ?item .
+}","['wd:Q21011233 wdt:P2175 ?item']","['wdt:P2175']","wd:Q21011233","wdt:P2175"
+107,"What is the tradename of apixaban?","select ?item ?itemLabel
+Where {
+  wd:Q414462 wdt:P3780 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q414462 wdt:P3780 ?item']","['wdt:P3780']","wd:Q414462","wdt:P3780"
+108,"Which is the most common monogenic cause of common variable immunodeficiency (CVID)?","select ?item ?itemLabel
+Where {
+  wd:Q1472818 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1472818 wdt:P2293 ?item']","['wdt:P2293']","wd:Q1472818","wdt:P2293"
+109,"Which is the vector of Louping ill virus?","select ?item ?itemLabel
+Where {
+  wd:Q19838288 wdt:P2975 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q19838288 wdt:P2975 ?item']","['wdt:P2975']","wd:Q19838288","wdt:P2975"
+110,"Which is the most mutated gene in dilated cardiomyopathy (DCM)?","select ?item ?itemLabel
+Where {
+  wd:Q283656 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q283656 wdt:P2293 ?item']","['wdt:P2293']","wd:Q283656","wdt:P2293"
+111,"What is the function of cryptochrome-1 in mouse?","select ?item ?itemLabel
+Where {
+  wd:Q14866013 wdt:P682 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q14866013 wdt:P682 ?item']","['wdt:P682']","wd:Q14866013","wdt:P682"
+112,"Where is fatty acid binding protein 2 expressed?","select ?item ?itemLabel
+Where {
+  wd:Q17927050 wdt:P5572 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q17927050 wdt:P5572 ?item']","['wdt:P5572']","wd:Q17927050","wdt:P5572"
+113,"Where is the body would the Peyer's patches be found","select ?item where {
+  wd:Q599966 wdt:P927 ?item .
+}","['wd:Q599966 wdt:P927 ?item']","['wdt:P927']","wd:Q599966","wdt:P927"
+114,"What is the function of the HSJ1 proteins?","select ?item ?itemLabel
+where {
+  wd:Q21117951 wdt:P682 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21117951 wdt:P682 ?item']","['wdt:P682']","wd:Q21117951","wdt:P682"
+115,"What are manifestations of the Saint's Triad?","select distinct ?item where {
+  wd:Q1448753 wdt:P527 ?item .
+}","['wd:Q1448753 wdt:P527 ?item']","['wdt:P527']","wd:Q1448753","wdt:P527"
+116,"List symptoms of the Hakim Triad?","select distinct ?item where {
+  wd:Q1442701 wdt:P780 ?item .
+}","['wd:Q1442701 wdt:P780 ?item']","['wdt:P780']","wd:Q1442701","wdt:P780"
+117,"Where is the organ of Corti located?","select ?item ?itemLabel
+where {
+  wd:Q1128309 wdt:P361 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1128309 wdt:P361 ?item']","['wdt:P361']","wd:Q1128309","wdt:P361"
+118,"List indications for rituximab.","select distinct ?item where {
+  wd:Q412323 wdt:P2175 ?item .
+}","['wd:Q412323 wdt:P2175 ?item']","['wdt:P2175']","wd:Q412323","wdt:P2175"
+119,"Where is the histone variant CENPA preferentially localized?","select ?item ?itemLabel
+Where {
+  wd:Q21109722 wdt:P681 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21109722 wdt:P681 ?item']","['wdt:P681']","wd:Q21109722","wdt:P681"
+120,"What is the protein product of the gene GBA2?","select ?item ?itemLabel
+Where {
+  wd:Q18044482 wdt:P688 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q18044482 wdt:P688 ?item']","['wdt:P688']","wd:Q18044482","wdt:P688"
+121,"What is the function of the stard10 protein?","select ?item ?itemLabel
+where {
+  wd:Q21111432 wdt:P682 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21111432 wdt:P682 ?item']","['wdt:P682']","wd:Q21111432","wdt:P682"
+122,"What does temsirolimus target?","select ?item where {
+  wd:Q7699074 wdt:P129 ?item .
+}","['wd:Q7699074 wdt:P129 ?item']","['wdt:P129']","wd:Q7699074","wdt:P129"
+123,"What is the genetic basis for Cornelia de Langes syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q1133289 wdt:P2293 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q1133289 wdt:P2293 ?item']","['wdt:P2293']","wd:Q1133289","wdt:P2293"
+124,"Which clotting factor is in the Andexxa?","select ?item ?itemLabel
+Where {
+  wd:Q7120529 wdt:P3781 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q7120529 wdt:P3781 ?item']","['wdt:P3781']","wd:Q7120529","wdt:P3781"
+125,"What is the indication for zolmitriptan?","select ?item ?itemLabel
+where {
+  wd:Q218820 wdt:P2175 ?item .
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q218820 wdt:P2175 ?item']","['wdt:P2175']","wd:Q218820","wdt:P2175"
+126,"What is targeted by Palbociclib?","select ?item ?itemLabel
+Where {
+  wd:Q15269707 wdt:P2175 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q15269707 wdt:P2175 ?item']","['wdt:P2175']","wd:Q15269707","wdt:P2175"
+127,"What is the drug chloroquine or hydroxychloroquine used for?","select distinct ?item where {
+  wd:Q421094 wdt:P2175 ?item .
+}","['wd:Q421094 wdt:P2175 ?item']","['wdt:P2175']","wd:Q421094","wdt:P2175"
+128,"What is the main symptom of Marfan syndrome patients?","select ?item ?itemLabel
+Where {
+  wd:Q208562 wdt:P780 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q208562 wdt:P780 ?item']","['wdt:P780']","wd:Q208562","wdt:P780"
+129,"What is another name for the plant Sideritis scardica?","select ?item ?itemLabel
+Where {
+  wd:Q15367189 wdt:P1843 ?item .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q15367189 wdt:P1843 ?item']","['wdt:P1843']","wd:Q15367189","wdt:P1843"
+130,"List NK3R targeting drugs.","select distinct ?item where {
+  ?item wdt:P129 wd:Q21123087  .
+}","['?item wdt:P129 wd:Q21123087']","['wdt:P129']","wd:Q21123087","wdt:P129"
+131,"What disease is the ALK tyrosine kinase associated with?","select distinct ?item
+Where {
+  wd:Q17824987 wdt:P2293 ?item .
+}","['wd:Q17824987 wdt:P2293 ?item']","['wdt:P2293']","wd:Q17824987","wdt:P2293"
+132,"Viliuisk encephalomyelitis is diagnosed in which geographical area?","select ?item
+Where {
+  wd:Q7930230 wdt:P276 ?item .
+}","['wd:Q7930230 wdt:P276 ?item']","['wdt:P276']","wd:Q7930230","wdt:P276"

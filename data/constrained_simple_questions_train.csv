@@ -1,0 +1,775 @@
+,0,1,"query","relations","target","primary","primary_rel","secondary_rel"
+0,"What kind of chromatography is HILIC?","select ?item ?itemLabel
+where {
+  wd:Q5955221 (wdt:P31|wdt:P279)* ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q170050 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q5955221 (wdt:P31|wdt:P279)* ?item', '?item (wdt:P31|wdt:P279)* wd:Q170050']","['(wdt:P31|wdt:P279)*', '(wdt:P31|wdt:P279)*']","wd:Q170050","wd:Q5955221","(wdt:P31|wdt:P279)*","(wdt:P31|wdt:P279)*"
+1,"Which gene is involved in Giant Axonal Neuropathy?","select ?item ?itemLabel
+Where {
+  wd:Q3338682 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q3338682 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q3338682","wdt:P2293","(wdt:P31|wdt:P279)*"
+2,"Which gene is primarily associated with the Saethre-Chotzen syndrome?","select ?item ?itemLabel
+where {
+  wd:Q3508686 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .  
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q3508686 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q3508686","wdt:P2293","(wdt:P31|wdt:P279)*"
+3,"Which gene is associated with the Mitchell-Riley syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q55784777 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .   
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q55784777 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q55784777","wdt:P2293","(wdt:P31|wdt:P279)*"
+4,"Please list the 4 genes involved in Sanfilippo syndrome, also known as mucopolysaccharidosis III (MPS-III).","select distinct ?item where {
+  wd:Q2200359 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q2200359 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q2200359","wdt:P2293","(wdt:P31|wdt:P279)*"
+5,"Which bacteria caused plague?","select ?item ?itemLabel
+Where {
+  wd:Q133780 wdt:P828 ?item .
+  ?item wdt:P171* wd:Q10876 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q133780 wdt:P828 ?item', '?item wdt:P171* wd:Q10876']","['wdt:P828', 'wdt:P171*']","wd:Q10876","wd:Q133780","wdt:P828","wdt:P171*"
+6,"What disease is associated with mutations in the MECP2 transcription factor?","select ?item ?itemLabel
+Where {
+  ?item wdt:P2293 wd:Q18028997 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['?item wdt:P2293 wd:Q18028997', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18028997","wdt:P2293","(wdt:P31|wdt:P279)*"
+7,"In what part of the body is the masseter muscle located?","select ?item where {
+  wd:Q725408 wdt:P361 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q4936952 .
+}","['wd:Q725408 wdt:P361 ?item', '?item (wdt:P31|wdt:P279)* wd:Q4936952']","['wdt:P361', '(wdt:P31|wdt:P279)*']","wd:Q4936952","wd:Q725408","wdt:P361","(wdt:P31|wdt:P279)*"
+8,"Please list the 2 vaccine brands for herpes zoster(shingles)","select distinct ?item where {
+  ?item wdt:P1924 wd:Q182155 .
+  ?item (wdt:P31|wdt:P279)* wd:Q431289 .
+}","['?item wdt:P1924 wd:Q182155', '?item (wdt:P31|wdt:P279)* wd:Q431289']","['wdt:P1924', '(wdt:P31|wdt:P279)*']","wd:Q431289","wd:Q182155","wdt:P1924","(wdt:P31|wdt:P279)*"
+9,"Which plant is khellin extracted from?","select ?item where {
+  wd:Q2079998 wdt:P703 ?item .
+  ?item wdt:P171* wd:Q756 .
+}","['wd:Q2079998 wdt:P703 ?item', '?item wdt:P171* wd:Q756']","['wdt:P703', 'wdt:P171*']","wd:Q756","wd:Q2079998","wdt:P703","wdt:P171*"
+10,"Which disease is treated with lucinactant?","select ?item ?itemLabel
+Where {
+  wd:Q6697358 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q6697358 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q6697358","wdt:P2175","(wdt:P31|wdt:P279)*"
+11,"Which genes have been found to be associated with restless leg syndrome","select distinct ?item where {
+  wd:Q916280 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q916280 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q916280","wdt:P2293","(wdt:P31|wdt:P279)*"
+12,"Mutation of which gene causes arterial tortuosity syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q4216194 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q4216194 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q4216194","wdt:P2293","(wdt:P31|wdt:P279)*"
+13,"Which pathological conditions are caused by mutations in the CYLD gene?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q17911655 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q17911655', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q17911655","wdt:P2293","(wdt:P31|wdt:P279)*"
+14,"From which tissue type is leptin secreted?","select ?item ?itemLabel
+Where {
+  wd:Q14851942 wdt:P5572 ?item.
+  ?item (wdt:P31|wdt:P279)* wd:Q103843025 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q14851942 wdt:P5572 ?item', '?item (wdt:P31|wdt:P279)* wd:Q103843025']","['wdt:P5572', '(wdt:P31|wdt:P279)*']","wd:Q103843025","wd:Q14851942","wdt:P5572","(wdt:P31|wdt:P279)*"
+15,"What illness is transmitted by the Lone Star Tick, Amblyomma americanum?","select distinct ?item where {
+  ?item wdt:P1060 wd:Q1948607 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}
+","['?item wdt:P1060 wd:Q1948607', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P1060', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q1948607","wdt:P1060","(wdt:P31|wdt:P279)*"
+16,"Which genes are associated with Charcot-Marie-Tooth?","select distinct ?item where {
+  wd:Q1052687 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q1052687 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1052687","wdt:P2293","(wdt:P31|wdt:P279)*"
+17,"What family do mDia1 protein belong in?","select ?item ?itemLabel 
+Where {   
+wd:Q21115773 wdt:P361 ?item .
+?item (wdt:P31|wdt:P279)* wd:Q417841 .   
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q21115773 wdt:P361 ?item', '?item (wdt:P31|wdt:P279)* wd:Q417841']","['wdt:P361', '(wdt:P31|wdt:P279)*']","wd:Q417841","wd:Q21115773","wdt:P361","(wdt:P31|wdt:P279)*"
+18,"What drug cures hepatitis C?","select ?item ?itemLabel
+Where {
+  wd:Q154869 wdt:P2176 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12140 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q154869 wdt:P2176 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12140']","['wdt:P2176', '(wdt:P31|wdt:P279)*']","wd:Q12140","wd:Q154869","wdt:P2176","(wdt:P31|wdt:P279)*"
+19,"List the cellular processes the protein lactotransferrin is involved in.","select distinct ?item where {
+  wd:Q410246 wdt:P682 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q14873025 . 
+}","['wd:Q410246 wdt:P682 ?item', '?item (wdt:P31|wdt:P279)* wd:Q14873025']","['wdt:P682', '(wdt:P31|wdt:P279)*']","wd:Q14873025","wd:Q410246","wdt:P682","(wdt:P31|wdt:P279)*"
+20,"Which diseases are caused by mutations in Calsequestrin 2 (CASQ2) gene?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q17855954 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q17855954', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q17855954","wdt:P2293","(wdt:P31|wdt:P279)*"
+21,"What molecule is targeted by suvorexant?","select ?item ?itemLabel
+Where {
+  wd:Q7650517 wdt:P129 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q11369 .   
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7650517 wdt:P129 ?item', '?item (wdt:P31|wdt:P279)* wd:Q11369']","['wdt:P129', '(wdt:P31|wdt:P279)*']","wd:Q11369","wd:Q7650517","wdt:P129","(wdt:P31|wdt:P279)*"
+22,"Mutations in which genes have been associated with Aicardi-Goutieres syndrome?","select distinct ?item where {
+  wd:Q403453 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q403453 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q403453","wdt:P2293","(wdt:P31|wdt:P279)*"
+23,"Which gene is associated with Rubinstein-Taybi syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q666980 wdt:P2293 ?item .
+ ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q666980 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q666980","wdt:P2293","(wdt:P31|wdt:P279)*"
+24,"RTS S AS01 vaccine was developed to prevent which disease?","select ?item ?itemLabel
+Where {
+  wd:Q7277881 wdt:P1924 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7277881 wdt:P1924 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P1924', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q7277881","wdt:P1924","(wdt:P31|wdt:P279)*"
+25,"Which is the protein encoded by the human gene GRIK?","select ?item ?itemLabel
+Where {
+  wd:Q4039195 wdt:P688 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q8054 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q4039195 wdt:P688 ?item', '?item (wdt:P31|wdt:P279)* wd:Q8054']","['wdt:P688', '(wdt:P31|wdt:P279)*']","wd:Q8054","wd:Q4039195","wdt:P688","(wdt:P31|wdt:P279)*"
+26,"Which gene is involved in the development of Barth syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q928424 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q928424 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q928424","wdt:P2293","(wdt:P31|wdt:P279)*"
+27,"Please list 3 drugs that have EGFR as their primary target.","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q12140 .
+  ?item wdt:P129 wd:Q424401  .
+}","['?item (wdt:P31|wdt:P279)* wd:Q12140', '?item wdt:P129 wd:Q424401']","['(wdt:P31|wdt:P279)*', 'wdt:P129']","wd:Q12140","wd:Q424401","wdt:P129","(wdt:P31|wdt:P279)*"
+28,"Which type of cells is affected in Amyotrophic Lateral Sclerosis?","select ?item ?itemLabel
+Where {
+  wd:Q206901 wdt:P689 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q189118 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q206901 wdt:P689 ?item', '?item (wdt:P31|wdt:P279)* wd:Q189118']","['wdt:P689', '(wdt:P31|wdt:P279)*']","wd:Q189118","wd:Q206901","wdt:P689","(wdt:P31|wdt:P279)*"
+29,"Which disease do pathogenic NR2F1 variants cause?","select ?item where {
+  ?item wdt:P2293 wd:Q18031958 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q18031958', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18031958","wdt:P2293","(wdt:P31|wdt:P279)*"
+30,"Which is the gene most commonly mutated in Tay-Sachs disease?","select ?item ?itemLabel
+Where {
+  wd:Q560337 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q560337 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q560337","wdt:P2293","(wdt:P31|wdt:P279)*"
+31,"What molecule is targeted by brodalumab?","select ?item ?itemLabel
+Where {
+  wd:Q4972934 wdt:P129 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q11369 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q4972934 wdt:P129 ?item', '?item (wdt:P31|wdt:P279)* wd:Q11369']","['wdt:P129', '(wdt:P31|wdt:P279)*']","wd:Q11369","wd:Q4972934","wdt:P129","(wdt:P31|wdt:P279)*"
+32,"Which disease is treated with Nusinersen?","select ?item ?itemLabel
+Where {
+  wd:Q25105466 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q25105466 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q25105466","wdt:P2175","(wdt:P31|wdt:P279)*"
+33,"Which plant does oleuropein originate from?","select ?item ?itemLabel
+Where {
+  wd:Q402625 wdt:P703 ?item .
+  ?item wdt:P171* wd:Q756 . 
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q402625 wdt:P703 ?item', '?item wdt:P171* wd:Q756']","['wdt:P703', 'wdt:P171*']","wd:Q756","wd:Q402625","wdt:P703","wdt:P171*"
+34,"Sclerostin regulates what process?","select ?item ?itemLabel
+Where {
+  wd:Q7434196 wdt:P682 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q3249551 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q7434196 wdt:P682 ?item', '?item (wdt:P31|wdt:P279)* wd:Q3249551']","['wdt:P682', '(wdt:P31|wdt:P279)*']","wd:Q3249551","wd:Q7434196","wdt:P682","(wdt:P31|wdt:P279)*"
+35,"Which disease is caused by mutations in the gene PRF1?","select ?item where {
+  wd:Q14864078 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q14864078 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q14864078","wdt:P2293","(wdt:P31|wdt:P279)*"
+36,"Which drugs are included in TAS-102?","select distinct ?item where {
+   wd:Q15708335 wdt:P527 ?item.
+  ?item (wdt:P31|wdt:P279)* wd:Q12140 .
+}","['wd:Q15708335 wdt:P527 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12140']","['wdt:P527', '(wdt:P31|wdt:P279)*']","wd:Q12140","wd:Q15708335","wdt:P527","(wdt:P31|wdt:P279)*"
+37,"Which mutated gene causes the Chédiak–Higashi Syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q934034 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q934034 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q934034","wdt:P2293","(wdt:P31|wdt:P279)*"
+38,"The MMR vaccine protects against what 3 diseases?","select distinct ?item where {
+  wd:Q908104 wdt:P1924 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q908104 wdt:P1924 ?item', ' ?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P1924', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q908104","wdt:P1924","(wdt:P31|wdt:P279)*"
+39,"List the main proteins found in human saliva.","select distinct ?item where {
+  wd:Q37817532 wdt:P527 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q8054 .
+}","['wd:Q37817532 wdt:P527 ?item', '?item (wdt:P31|wdt:P279)* wd:Q8054']","['wdt:P527', '(wdt:P31|wdt:P279)*']","wd:Q8054","wd:Q37817532","wdt:P527","(wdt:P31|wdt:P279)*"
+40,"List diseases that are caused by the Meningococcus B?","select distinct ?item where {
+  ?item wdt:P828 wd:Q154625  .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 . 
+}","['?item wdt:P828 wd:Q154625', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P828', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q154625","wdt:P828","(wdt:P31|wdt:P279)*"
+41,"Belzutifan has shown effectiveness for which diseases?","select ?item where {
+  wd:Q27456641 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}
+","['wd:Q27456641 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q27456641","wdt:P2175","(wdt:P31|wdt:P279)*"
+42,"Which receptor is inhibited by Tivozanib?","select ?item ?itemLabel
+Where {
+  wd:Q7810457 wdt:P129 ?item .
+  ?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q208467 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q7810457 wdt:P129 ?item', '?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q208467']","['wdt:P129', '(wdt:P31|wdt:P279|wdt:P361)*']","wd:Q208467","wd:Q7810457","wdt:P129","(wdt:P31|wdt:P279|wdt:P361)*"
+43,"Which syndrome is associated with mutant DVL1?","select ?item ?itemLabel 
+Where {   
+wd:Q17915107 wdt:P2293 ?item .   
+?item (wdt:P31|wdt:P279)* wd:Q179630 .
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q17915107 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q179630']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q179630","wd:Q17915107","wdt:P2293","(wdt:P31|wdt:P279)*"
+44,"Which chromosome contains the TLR7 locus in the human genome?","select ?item ?itemLabel
+Where {
+  wd:Q14914081 wdt:P1057 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q37748 .  
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q14914081 wdt:P1057 ?item', '?item (wdt:P31|wdt:P279)* wd:Q37748']","['wdt:P1057', '(wdt:P31|wdt:P279)*']","wd:Q37748","wd:Q14914081","wdt:P1057","(wdt:P31|wdt:P279)*"
+45,"List the diseases that can be treated using Vedolizumab.","select distinct ?item where {
+   wd:Q7918002 wdt:P2175 ?item.
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q7918002 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q7918002","wdt:P2175","(wdt:P31|wdt:P279)*"
+46,"For which type of diabetes can empagliflozin be used?","select ?item ?itemLabel
+Where {
+  wd:Q5373824 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12206 .   
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q5373824 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12206']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12206","wd:Q5373824","wdt:P2175","(wdt:P31|wdt:P279)*"
+47,"What disease is mirtazapine predominantly used for?","select ?item ?itemLabel
+Where {
+  wd:Q421930 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q421930 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q421930","wdt:P2175","(wdt:P31|wdt:P279)*"
+48,"What monoclonal antibody drugs are used to treat late stage melanoma?","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q422248 .
+  ?item wdt:P2175 wd:Q18975855  .
+}","['?item (wdt:P31|wdt:P279)* wd:Q422248', '?item wdt:P2175 wd:Q18975855']","['(wdt:P31|wdt:P279)*', 'wdt:P2175']","wd:Q422248","wd:Q18975855","wdt:P2175","(wdt:P31|wdt:P279)*"
+49,"Which two genes are implicated in Juvenile polyposis syndrome?","select distinct ?item where {
+  wd:Q609165 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q609165 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q609165","wdt:P2293","(wdt:P31|wdt:P279)*"
+50,"Which kinase is inhibited by the small molecule KN-93?","select ?item ?itemLabel
+Where {
+  wd:Q72487009 wdt:P129 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q421851 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q72487009 wdt:P129 ?item', '?item (wdt:P31|wdt:P279)* wd:Q421851']","['wdt:P129', '(wdt:P31|wdt:P279)*']","wd:Q421851","wd:Q72487009","wdt:P129","(wdt:P31|wdt:P279)*"
+51,"Which is the main calcium pump of the sarcoplasmic reticulum?","select ?item ?itemLabel where {
+  ?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q17113155 .
+  ?item wdt:P681 wd:Q14633936 .
+  ?item rdfs:label ?itemLabel .
+}","['?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q17113155', '?item wdt:P681 wd:Q14633936']","['(wdt:P31|wdt:P279|wdt:P361)*', 'wdt:P681']","wd:Q17113155","wd:Q14633936","wdt:P681","(wdt:P31|wdt:P279|wdt:P361)*"
+52,"Which gene is associated with Muenke syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q3508679 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q3508679 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q3508679","wdt:P2293","(wdt:P31|wdt:P279)*"
+53,"What cellular process is the gene product of NANOG involved in?","select ?item ?itemLabel
+Where {
+  wd:Q420522 wdt:P682 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q2996394 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q420522 wdt:P682 ?item', '?item (wdt:P31|wdt:P279)* wd:Q2996394']","['wdt:P682', '(wdt:P31|wdt:P279)*']","wd:Q2996394","wd:Q420522","wdt:P682","(wdt:P31|wdt:P279)*"
+54,"Which genes are defective in Prader-Willi syndrome?","select distinct ?item where {
+  wd:Q594013 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q594013 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q594013","wdt:P2293","(wdt:P31|wdt:P279)*"
+55,"Which protein complexes contain mitofilin?","select distinct ?item where {
+  wd:Q21114803 wdt:P681 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q22325163 .
+}","['wd:Q21114803 wdt:P681 ?item', '?item (wdt:P31|wdt:P279)* wd:Q22325163']","['wdt:P681', '(wdt:P31|wdt:P279)*']","wd:Q22325163","wd:Q21114803","wdt:P681","(wdt:P31|wdt:P279)*"
+56,"What disease is Loxapine prominently used for?","select ?item ?itemLabel
+Where {
+  wd:Q58614 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .   
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q58614 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q58614","wdt:P2175","(wdt:P31|wdt:P279)*"
+57,"The Shingrix vaccine is used to prevent what disease?","select ?item ?itemLabel
+where {
+  wd:Q42610038 wdt:P1924 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .  
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q42610038 wdt:P1924 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P1924', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q42610038","wdt:P1924","(wdt:P31|wdt:P279)*"
+58,"Which genes have been found mutated in Gray platelet syndrome patients?","select distinct ?item where {
+  wd:Q5598273 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q5598273 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q5598273","wdt:P2293","(wdt:P31|wdt:P279)*"
+59,"What gene is mutated in Huntingtons Disease patients?","select ?item ?itemLabel
+Where {
+  wd:Q190564 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q190564 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q190564","wdt:P2293","(wdt:P31|wdt:P279)*"
+60,"Which disease is caused by mutations in the gene CALR?","select ?item where {
+  ?item wdt:P2293 wd:Q14633932 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q14633932', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q14633932","wdt:P2293","(wdt:P31|wdt:P279)*"
+61,"Telomestatin is derived from what organism?","select ?item where {
+  wd:Q4391972 wdt:P703 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q21871294 .
+}","['wd:Q4391972 wdt:P703 ?item', '?item (wdt:P31|wdt:P279)* wd:Q21871294']","['wdt:P703', '(wdt:P31|wdt:P279)*']","wd:Q21871294","wd:Q4391972","wdt:P703","(wdt:P31|wdt:P279)*"
+62,"Which human disease is associated with mutated UBQLN2","select ?item ?itemLabel
+Where {
+  wd:Q18039744 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q18039744 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18039744","wdt:P2293","(wdt:P31|wdt:P279)*"
+63,"What genes are related to breast cancer?","select distinct ?item where {
+  wd:Q128581 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q128581 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q128581","wdt:P2293","(wdt:P31|wdt:P279)*"
+64,"In which types of DNA repair is the UvrAB complex involved?","select distinct ?item where {
+  wd:Q107602011 wdt:P682 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q210538 .
+}","['wd:Q107602011 wdt:P682 ?item', '?item (wdt:P31|wdt:P279)* wd:Q210538']","['wdt:P682', '(wdt:P31|wdt:P279)*']","wd:Q210538","wd:Q107602011","wdt:P682","(wdt:P31|wdt:P279)*"
+65,"Which genes are implicated in short QT syndrome?","select distinct ?item where {
+  wd:Q1484058 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q1484058 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1484058","wdt:P2293","(wdt:P31|wdt:P279)*"
+66,"Please list diseases treated with Valtrex(valacyclovir)","select distinct ?item where {
+  wd:Q418594 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q418594 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q418594","wdt:P2175","(wdt:P31|wdt:P279)*"
+67,"Which disease phenotypes are associated to PRPS1 mutations?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q18030814 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q18030814', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18030814","wdt:P2293","(wdt:P31|wdt:P279)*"
+68,"Mutation of which gene is implicated in the Christianson syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q28065629 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q28065629 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q28065629","wdt:P2293","(wdt:P31|wdt:P279)*"
+69,"HER-2 belongs to what family of proteins?","select ?item ?itemLabel
+Where {
+  wd:Q415271 wdt:P361 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q417841 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q415271 wdt:P361 ?item', '?item (wdt:P31|wdt:P279)* wd:Q417841']","['wdt:P361', '(wdt:P31|wdt:P279)*']","wd:Q417841","wd:Q415271","wdt:P361","(wdt:P31|wdt:P279)*"
+70,"Which protein family is epiregulin a member of?","select ?item where {
+  wd:Q5383215 wdt:P361 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q417841 .
+}","['wd:Q5383215 wdt:P361 ?item', '?item (wdt:P31|wdt:P279)* wd:Q417841']","['wdt:P361', '(wdt:P31|wdt:P279)*']","wd:Q417841","wd:Q5383215","wdt:P361","(wdt:P31|wdt:P279)*"
+71,"Which gene is responsible for the development of the Mowat-Wilson syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q2757585 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q2757585 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q2757585","wdt:P2293","(wdt:P31|wdt:P279)*"
+72,"Which are the skeletal manifestations of Marfan syndrome?","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q4941552 . 
+  wd:Q208562 wdt:P780 ?item .
+}","['?item (wdt:P31|wdt:P279)* wd:Q4941552', 'wd:Q208562 wdt:P780 ?item']","['(wdt:P31|wdt:P279)*', 'wdt:P780']","wd:Q4941552","wd:Q208562","wdt:P780","(wdt:P31|wdt:P279)*"
+73,"Which disease is treated with semaglutide?","select ?item ?itemLabel
+Where {
+  wd:Q27261089 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q27261089 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q27261089","wdt:P2175","(wdt:P31|wdt:P279)*"
+74,"What are the phases of hair follicle cycle?","select ?item where {
+  ?item wdt:P361 wd:Q14908094 .
+  ?item (wdt:P31|wdt:P279)* wd:Q22299142 .
+}
+","['?item wdt:P361 wd:Q14908094', '?item (wdt:P31|wdt:P279)* wd:Q22299142']","['wdt:P361', '(wdt:P31|wdt:P279)*']","wd:Q22299142","wd:Q14908094","wdt:P361","(wdt:P31|wdt:P279)*"
+75,"In which cell organelle is the SAF-A protein localized?","select ?item ?itemLabel
+Where {
+  wd:Q21172295 wdt:P681 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q45948 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q21172295 wdt:P681 ?item', '?item (wdt:P31|wdt:P279)* wd:Q45948']","['wdt:P681', '(wdt:P31|wdt:P279)*']","wd:Q45948","wd:Q21172295","wdt:P681","(wdt:P31|wdt:P279)*"
+76,"Which syndromes are associated with mutations in the EZH2 gene?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q17917770 .
+  ?item (wdt:P31|wdt:P279)* wd:Q179630 .
+}","['?item wdt:P2293 wd:Q17917770', '?item (wdt:P31|wdt:P279)* wd:Q179630']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q179630","wd:Q17917770","wdt:P2293","(wdt:P31|wdt:P279)*"
+77,"Which body parts express the ACE2 protein?","select distinct ?item where {
+  wd:Q14875321 wdt:P5572 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q4936952 . 
+}","['wd:Q14875321 wdt:P5572 ?item', '?item (wdt:P31|wdt:P279)* wd:Q4936952']","['wdt:P5572', '(wdt:P31|wdt:P279)*']","wd:Q4936952","wd:Q14875321","wdt:P5572","(wdt:P31|wdt:P279)*"
+78,"Which gene is responsible for the development of Sotos syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q1770836 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1770836 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1770836","wdt:P2293","(wdt:P31|wdt:P279)*"
+79,"Which genes are thought to be involved in medulloblastoma development?","select distinct ?item where {
+   wd:Q1333608 wdt:P2293 ?item.
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q1333608 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1333608","wdt:P2293","(wdt:P31|wdt:P279)*"
+80,"Which gene has been found to be mutant in Lesch-Nyhan Disease patients?","select ?item ?itemLabel
+Where {
+  wd:Q727436 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q727436 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q727436","wdt:P2293","(wdt:P31|wdt:P279)*"
+81,"Which are the types of cancer that c-Myc is associated with?","select ?item where {
+  ?item wdt:P2293 wd:Q20969939 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12078 .
+}
+","['?item wdt:P2293 wd:Q20969939', '?item (wdt:P31|wdt:P279)* wd:Q12078']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12078","wd:Q20969939","wdt:P2293","(wdt:P31|wdt:P279)*"
+82,"Which syndrome is associated to SAMHD1 gene mutations?","select ?item ?itemLabel
+Where {
+  ?item wdt:P2293 wd:Q18037813 .
+  ?item (wdt:P31|wdt:P279)* wd:Q179630 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['?item wdt:P2293 wd:Q18037813', '?item (wdt:P31|wdt:P279)* wd:Q179630']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q179630","wd:Q18037813","wdt:P2293","(wdt:P31|wdt:P279)*"
+83,"Which genes are known to be involved in Diamond-Blackfan anemia?","select distinct ?item where {
+  wd:Q1208654 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q1208654 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1208654","wdt:P2293","(wdt:P31|wdt:P279)*"
+84,"Aducanumab can be used for treatment of which disease?","select ?item where {
+  wd:Q15708278 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q15708278 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q15708278","wdt:P2175","(wdt:P31|wdt:P279)*"
+85,"List drugs used to treat opioid addiction or overdose","select distinct ?item where {
+  wd:Q1639178 wdt:P2176 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12140 .
+}","['wd:Q1639178 wdt:P2176 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12140']","['wdt:P2176', '(wdt:P31|wdt:P279)*']","wd:Q12140","wd:Q1639178","wdt:P2176","(wdt:P31|wdt:P279)*"
+86,"What is the gene responsible for causing tuberous sclerosis?","select ?item ?itemLabel 
+Where {   
+wd:Q1362721 wdt:P2293 ?item .   
+?item (wdt:P31|wdt:P279)* wd:Q7187 .
+?item rdfs:label ?itemLabel .   
+filter(lang(?itemLabel) = ""en"") 
+}","['wd:Q1362721 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1362721","wdt:P2293","(wdt:P31|wdt:P279)*"
+87,"What are the cardiovascular manifestations of Marfan syndrome?","select distinct ?item where {
+  wd:Q208562 wdt:P780 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q389735 .
+}","['wd:Q208562 wdt:P780 ?item', '?item (wdt:P31|wdt:P279)* wd:Q389735']","['wdt:P780', '(wdt:P31|wdt:P279)*']","wd:Q389735","wd:Q208562","wdt:P780","(wdt:P31|wdt:P279)*"
+88,"Which kinases does baricitinib target?","select distinct ?item where {
+  wd:Q4860707 wdt:P129 ?item .
+  ?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q421851 .
+}","['wd:Q4860707 wdt:P129 ?item', '?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q421851']","['wdt:P129', '(wdt:P31|wdt:P279|wdt:P361)*']","wd:Q421851","wd:Q4860707","wdt:P129","(wdt:P31|wdt:P279|wdt:P361)*"
+89,"Which is the neurodevelopmental disorder associated to mutations in the X- linked gene mecp2?","select ?item ?itemLabel
+Where {
+  wd:Q18028997 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q6691991 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q18028997 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q6691991']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q6691991","wd:Q18028997","wdt:P2293","(wdt:P31|wdt:P279)*"
+90,"Which syndrome is caused by pathogenic COL4A5 variants?","select ?item where {
+  ?item wdt:P2293 wd:Q17907906 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q17907906', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q17907906","wdt:P2293","(wdt:P31|wdt:P279)*"
+91,"What is the gene involved in Ohdo syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q8058422 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q8058422 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q8058422","wdt:P2293","(wdt:P31|wdt:P279)*"
+92,"List monoclonal antibodies included in the REGEN-COV.","select ?item where {
+  wd:Q99328880 wdt:P527 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q422248 .
+}
+","['wd:Q99328880 wdt:P527 ?item', '?item (wdt:P31|wdt:P279)* wd:Q422248']","['wdt:P527', '(wdt:P31|wdt:P279)*']","wd:Q422248","wd:Q99328880","wdt:P527","(wdt:P31|wdt:P279)*"
+93,"Mutation of which gene is associated with Achondroplasia?","select ?item ?itemLabel
+Where {
+  wd:Q340594 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q340594 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q340594","wdt:P2293","(wdt:P31|wdt:P279)*"
+94,"Which protein is encoded by the gene APOBEC3C?","select ?item ?itemLabel
+where {
+  wd:Q18038804 wdt:P688 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q8054 .  
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q18038804 wdt:P688 ?item', '?item (wdt:P31|wdt:P279)* wd:Q8054']","['wdt:P688', '(wdt:P31|wdt:P279)*']","wd:Q8054","wd:Q18038804","wdt:P688","(wdt:P31|wdt:P279)*"
+95,"What is the gene involved in episodic ataxia type 6?","select ?item ?itemLabel
+Where {
+  wd:Q21097872 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .   
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21097872 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q21097872","wdt:P2293","(wdt:P31|wdt:P279)*"
+96,"Which malignancies is Keytruda used for?","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q1216998 .
+  wd:Q13896859 wdt:P2175 ?item .
+}","['?item (wdt:P31|wdt:P279)* wd:Q1216998', 'wd:Q13896859 wdt:P2175 ?item']","['(wdt:P31|wdt:P279)*', 'wdt:P2175']","wd:Q1216998","wd:Q13896859","wdt:P2175","(wdt:P31|wdt:P279)*"
+97,"Treprostinil is a type of which prostaglandin?","select ?item ?itemLabel
+Where {
+  wd:Q3495231 wdt:P279 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q209717 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q3495231 wdt:P279 ?item', '?item (wdt:P31|wdt:P279)* wd:Q209717']","['wdt:P279', '(wdt:P31|wdt:P279)*']","wd:Q209717","wd:Q3495231","wdt:P279","(wdt:P31|wdt:P279)*"
+98,"Which disease is diagnosed using the Finkelsteins test?","select ?item ?itemLabel
+Where {
+  wd:Q476130 wdt:P5132 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q476130 wdt:P5132 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P5132', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q476130","wdt:P5132","(wdt:P31|wdt:P279)*"
+99,"Which disease is gemtuzumab ozogamicin used for?","select ?item ?itemLabel
+Where {
+  wd:Q412685 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q412685 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q412685","wdt:P2175","(wdt:P31|wdt:P279)*"
+100,"Which tendons are affected in the Dequervain's tenosynovitis?","select distinct ?item where {
+  wd:Q517202 wdt:P689 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q232358 .
+}","['wd:Q517202 wdt:P689 ?item', '?item (wdt:P31|wdt:P279)* wd:Q232358']","['wdt:P689', '(wdt:P31|wdt:P279)*']","wd:Q232358","wd:Q517202","wdt:P689","(wdt:P31|wdt:P279)*"
+101,"Which cancers compose Carney's triad?","select distinct ?item where {
+  wd:Q5044023 wdt:P527 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12078 .
+}","['wd:Q5044023 wdt:P527 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12078']","['wdt:P527', '(wdt:P31|wdt:P279)*']","wd:Q12078","wd:Q5044023","wdt:P527","(wdt:P31|wdt:P279)*"
+102,"Mutations in which gene is associated with Netherton syndrome?","select distinct ?item where {
+  wd:Q9390284 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q9390284 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q9390284","wdt:P2293","(wdt:P31|wdt:P279)*"
+103,"Which gene is responsible for the Liebenberg syndrome?","select ?item ?itemLabel
+where {
+  wd:Q6543864 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .  
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q6543864 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q6543864","wdt:P2293","(wdt:P31|wdt:P279)*"
+104,"What are the organisms can cause Human toxocariasis?","select distinct ?item where {
+  wd:Q1345113 wdt:P828 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q16521 .
+}","['wd:Q1345113 wdt:P828 ?item', '?item (wdt:P31|wdt:P279)* wd:Q16521']","['wdt:P828', '(wdt:P31|wdt:P279)*']","wd:Q16521","wd:Q1345113","wdt:P828","(wdt:P31|wdt:P279)*"
+105,"Which gene causes Schimke immune-osseous dysplasia?","select ?item ?itemLabel
+Where {
+  wd:Q22938868 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q22938868 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q22938868","wdt:P2293","(wdt:P31|wdt:P279)*"
+106,"List disorders that are caused by mutations in the mitochondrial MTND6 gene.","select distinct ?item where {
+  ?item wdt:P2293 wd:Q18029567 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q18029567', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18029567","wdt:P2293","(wdt:P31|wdt:P279)*"
+107,"Which is the main calcium binding protein of the sarcoplasmic reticulum?","select ?item ?itemLabel where {
+  ?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q5018802 .
+  ?item wdt:P681 wd:Q14633936 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['?item (wdt:P31|wdt:P279|wdt:P361)* wd:Q5018802', '?item wdt:P681 wd:Q14633936']","['(wdt:P31|wdt:P279|wdt:P361)*', 'wdt:P681']","wd:Q5018802","wd:Q14633936","wdt:P681","(wdt:P31|wdt:P279|wdt:P361)*"
+108,"Are there drugs for Tick-borne Encephalitis?","select distinct ?item where {
+  wd:Q326663 wdt:P2176 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12140 .
+}","['wd:Q326663 wdt:P2176 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12140']","['wdt:P2176', '(wdt:P31|wdt:P279)*']","wd:Q12140","wd:Q326663","wdt:P2176","(wdt:P31|wdt:P279)*"
+109,"What protein is encoded by the GRN gene?","select ?item where {
+  wd:Q18026495 wdt:P688 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q8054 .
+}","['wd:Q18026495 wdt:P688 ?item', '?item (wdt:P31|wdt:P279)* wd:Q8054']","['wdt:P688', '(wdt:P31|wdt:P279)*']","wd:Q8054","wd:Q18026495","wdt:P688","(wdt:P31|wdt:P279)*"
+110,"What tissue is most affected in Ehlers-Danlos syndromes?","select ?item ?itemLabel
+Where {
+  wd:Q1141499 wdt:P689 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q40397 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q1141499 wdt:P689 ?item', '?item (wdt:P31|wdt:P279)* wd:Q40397']","['wdt:P689', '(wdt:P31|wdt:P279)*']","wd:Q40397","wd:Q1141499","wdt:P689","(wdt:P31|wdt:P279)*"
+111,"What is the gene which is mutated in Roberts syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q619428 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q619428 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q619428","wdt:P2293","(wdt:P31|wdt:P279)*"
+112,"Which body parts secrete lactotransferrin?","select distinct ?item where {
+  wd:Q14864016 wdt:P5572 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q4936952 . 
+}","['wd:Q14864016 wdt:P5572 ?item', '?item (wdt:P31|wdt:P279)* wd:Q4936952']","['wdt:P5572', '(wdt:P31|wdt:P279)*']","wd:Q4936952","wd:Q14864016","wdt:P5572","(wdt:P31|wdt:P279)*"
+113,"Which disease is associated with mutated Sox2?","select ?item ?itemLabel
+Where {
+  ?item wdt:P2293 wd:Q18031649 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['?item wdt:P2293 wd:Q18031649', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18031649","wdt:P2293","(wdt:P31|wdt:P279)*"
+114,"What tissue is commonly affected in Marfans syndrome","select ?item ?itemLabel
+Where {
+  wd:Q208562 wdt:P689 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q40397 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q208562 wdt:P689 ?item', '?item (wdt:P31|wdt:P279)* wd:Q40397']","['wdt:P689', '(wdt:P31|wdt:P279)*']","wd:Q40397","wd:Q208562","wdt:P689","(wdt:P31|wdt:P279)*"
+115,"Which diseases have been associated with the PTPN22 620W allele?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q3888227 .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['?item wdt:P2293 wd:Q3888227', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q3888227","wdt:P2293","(wdt:P31|wdt:P279)*"
+116,"Mutation of which gene cause Neurofibromatosis type I?","select distinct ?item where {
+  wd:Q7616509 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}","['wd:Q7616509 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q7616509","wdt:P2293","(wdt:P31|wdt:P279)*"
+117,"What organism causes tularemia?","select ?item ?itemLabel
+Where {
+  wd:Q153861 wdt:P828 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q16521 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q153861 wdt:P828 ?item', '?item (wdt:P31|wdt:P279)* wd:Q16521']","['wdt:P828', '(wdt:P31|wdt:P279)*']","wd:Q16521","wd:Q153861","wdt:P828","(wdt:P31|wdt:P279)*"
+118,"What disease is Velcade (bortezomib) mainly used for?","select ?item ?itemLabel
+Where {
+  wd:Q419319 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q419319 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q419319","wdt:P2175","(wdt:P31|wdt:P279)*"
+119,"Fingolimod is a selective antagonist for which molecule?","select ?item where {
+  wd:Q425137 wdt:P129 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q11369 .
+}","['wd:Q425137 wdt:P129 ?item', '?item (wdt:P31|wdt:P279)* wd:Q11369']","['wdt:P129', '(wdt:P31|wdt:P279)*']","wd:Q11369","wd:Q425137","wdt:P129","(wdt:P31|wdt:P279)*"
+120,"Which gene is associated with the Kleefstra syndrome?","select ?item ?itemLabel
+where {
+  wd:Q4646476 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .  
+  ?item skos:prefLabel ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q4646476 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q4646476","wdt:P2293","(wdt:P31|wdt:P279)*"
+121,"Human dihydroorotate dehydrogenase is a drug target and is involved in what biosynthetic pathway","select ?item ?itemLabel
+Where {
+  wd:Q21135205 wdt:P682 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q14914008 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21135205 wdt:P682 ?item', '?item (wdt:P31|wdt:P279)* wd:Q14914008']","['wdt:P682', '(wdt:P31|wdt:P279)*']","wd:Q14914008","wd:Q21135205","wdt:P682","(wdt:P31|wdt:P279)*"
+122,"Which gene is associated with Woodhouse Sakati syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q8032762 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q8032762 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q8032762","wdt:P2293","(wdt:P31|wdt:P279)*"
+123,"With which complexes is the protein SUS1 associated?","select distinct ?item where {
+  ?item (wdt:P31|wdt:P279)* wd:Q22325163 .
+  ?item wdt:P527 wd:Q27549490 .
+}
+","['?item (wdt:P31|wdt:P279)* wd:Q22325163', '?item wdt:P527 wd:Q27549490']","['(wdt:P31|wdt:P279)*', 'wdt:P527']","wd:Q22325163","wd:Q27549490","wdt:P527","(wdt:P31|wdt:P279)*"
+124,"Which medication are included in the Polycap trial?","select distinct ?item where {
+  wd:Q61924824 wdt:P4844 ?item  .
+  ?item (wdt:P31|wdt:P279)* wd:Q12140 . 
+}","['wd:Q61924824 wdt:P4844 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12140']","['wdt:P4844', '(wdt:P31|wdt:P279)*']","wd:Q12140","wd:Q61924824","wdt:P4844","(wdt:P31|wdt:P279)*"
+125,"Which disorders are caused by de novo mutations in ZSWIM6?","select distinct ?item where {
+  ?item wdt:P2293 wd:Q18044428  .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 . 
+}","['?item wdt:P2293 wd:Q18044428', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q18044428","wdt:P2293","(wdt:P31|wdt:P279)*"
+126,"Dinutuximab is used for treatment of which disease?","select ?item ?itemLabel
+Where {
+  wd:Q21011236 wdt:P2175 ?item .
+   ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+ ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q21011236 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q21011236","wdt:P2175","(wdt:P31|wdt:P279)*"
+127,"Mutation of which gene is implicated in the Brain-lung-thyroid syndrome?","select ?item ?itemLabel
+where {
+  wd:Q55783782 wdt:P2293 ?item .
+ ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+ ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q55783782 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q55783782","wdt:P2293","(wdt:P31|wdt:P279)*"
+128,"Which disease is associated with Synaptosome Associated Protein 25 (snap25).","select distinct ?item where {
+  wd:Q14897641 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q14897641 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q14897641","wdt:P2293","(wdt:P31|wdt:P279)*"
+129,"Selexipag is used for which disease?","select ?item ?itemLabel
+Where {
+  wd:Q15424759 wdt:P2175 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q15424759 wdt:P2175 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P2175', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q15424759","wdt:P2175","(wdt:P31|wdt:P279)*"
+130,"Which genes are involved in Duchenne Muscular Dystrophy?","select ?item where {
+  wd:Q1648484 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+}
+","['wd:Q1648484 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q1648484","wdt:P2293","(wdt:P31|wdt:P279)*"
+131,"What gene is mutated in Huntingtons disease?","select ?item ?itemLabel
+Where {
+  wd:Q190564 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q190564 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q190564","wdt:P2293","(wdt:P31|wdt:P279)*"
+132,"Which gene is mutated in the classic Bartters syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q27674849 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}
+","['wd:Q27674849 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q27674849","wdt:P2293","(wdt:P31|wdt:P279)*"
+133,"Which gene cause the Marfan syndrome?","select ?item ?itemLabel
+Where {
+  wd:Q208562 wdt:P2293 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q7187 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q208562 wdt:P2293 ?item', '?item (wdt:P31|wdt:P279)* wd:Q7187']","['wdt:P2293', '(wdt:P31|wdt:P279)*']","wd:Q7187","wd:Q208562","wdt:P2293","(wdt:P31|wdt:P279)*"
+134,"Which disease is associated with DNAJB1-PRKACA fusion gene?","select ?item where {
+  wd:Q29886178 wdt:P3356 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q12136 .
+}","['wd:Q29886178 wdt:P3356 ?item', '?item (wdt:P31|wdt:P279)* wd:Q12136']","['wdt:P3356', '(wdt:P31|wdt:P279)*']","wd:Q12136","wd:Q29886178","wdt:P3356","(wdt:P31|wdt:P279)*"
+135,"What fruit causes Jamaican vomiting sickness?","select ?item ?itemLabel
+Where {
+  wd:Q784988 wdt:P828 ?item .
+  ?item (wdt:P31|wdt:P279)* wd:Q3314483 .
+  ?item rdfs:label ?itemLabel .
+  filter(lang(?itemLabel) = ""en"")
+}","['wd:Q784988 wdt:P828 ?item', '?item (wdt:P31|wdt:P279)* wd:Q3314483']","['wdt:P828', '(wdt:P31|wdt:P279)*']","wd:Q3314483","wd:Q784988","wdt:P828","(wdt:P31|wdt:P279)*"
