@@ -65,12 +65,12 @@ First, the files for creating these indexes need to be downloaded from here:
 The extracted *.rdf files should be placed in the elasticsearch_indexes folder.
 Next, the search index should be created using them:
 
-    1. For the entity label search index, follow the notebook elasticsearch_indexes/entity_to_elasticsearch_index.ipynb
-    
-    2. For the relation or predicate label search index, follow the notebook elasticsearch_indexes/relation_to_elasticsearch_index.ipynb
+1. For the entity label search index, follow the notebook elasticsearch_indexes/entity_to_elasticsearch_index.ipynb
+
+2. For the relation or predicate label search index, follow the notebook elasticsearch_indexes/relation_to_elasticsearch_index.ipynb
 
 ## 5. All the building blocks are set up. Now evaluation can be carried out.
 
-    1. Go to the codebase folder.
-    2. Run the evaluate.ipynb file. This contains the codes for evaluating the method on all the questions from the test dataset.
+1. Go to the codebase folder.
+2. Run the evaluate.ipynb file. This contains the codes for evaluating the method on all the questions from the test dataset.
 
