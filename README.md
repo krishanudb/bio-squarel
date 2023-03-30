@@ -27,6 +27,7 @@ These search indexes can be used for efficiently searching for entities' and pre
 Easiest Way to do this is using the GraphDB docker image: 
 
 1. Install docker in your system. Follow these instructions: https://docs.docker.com/engine/install/ubuntu/
+
 2. Start graphdb docker container using the following commands:<br>
     
     `$docker pull dhlabbasel/graphdb-free`
@@ -35,8 +36,10 @@ Easiest Way to do this is using the GraphDB docker image:
 
     Do not close the terminal on which this is running. It will stop the container.
 
-3. Go to localhost:7200 in your browser. It will open up GraphDB Workbench (Web Based GUI). There, set up a GraphDB repository called "wikidata_life_sciences"
+3. Go to localhost:7200 in your browser. If running on a remote server, put the IP of the remote server in place of "localhost". It will open up GraphDB Workbench (Web Based GUI). There, set up a GraphDB repository called "wikidata_life_sciences"
+
     For more information refer the GraphDB documentation: 
+    
 4. Upload the data into the wikidata_life_sciences repository using either GUI or command line.
     Uploading using GUI is quite simple. Refer to GraphDB documentation for any queries. 
     For uploading using command line, follow this process:
