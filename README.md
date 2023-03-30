@@ -10,21 +10,34 @@ In order to run the methodology of this repo, the following steps need to be fol
 ## 0. Set up the environment:
 
 Create a new environment using the requirements.txt file. The recommended way is to use conda to manage and create a new environment:<br>
-    `conda create --name <ENV_NAME> --file requirements.txt`
+    `
+    conda create --name <ENV_NAME> conda create -n bst python=3.9
+
+    conda activate <ENV_NAME>
+
+    conda install jupyter
+
+    pip install -r requirements.txt
+    
+    python -m spacy download en_core_web_trf
+    `
 
 
 ## 1. Get the biomedical sub Knowledge Graph of Wikidata along with associated files from here: 
 
-1. Download the data from here:
+1. Download the data from here: https://figshare.com/articles/dataset/Wikidata_Biomedical_SubGraph/22347790
 2. Extract the data if needed. 
 
 The downloaded files are essentially the KG triples needed for the construction of the knowledge graph.
 
 
 ## 2. Set-up the relation and entity label search method:
-1. Download and install elasticsearch (version 7.6.2)
-2. Go to the search_index_creation folder.
-3. Follow the notebook -- create_index.ipynb to create the elasticsearch indexes for entity and relation labels.
+1. Download the entity labels from the following repo: https://figshare.com/articles/dataset/Wikidata_Biomedical_Labels/22360486
+2. Download and install elasticsearch (version 7.6.2) and start elasticsearch.
+3. Go to the search_index_creation folder.
+4. Follow the notebook -- create_entity_index.ipynb to create the elasticsearch indexes for entity labels.  
+5. Follow the notebook -- create_relation_index.ipynb to create the elasticsearch indexes for relation labels.
+
 
 These search indexes can be used for efficiently searching for entities' and predicates' labels using their surface forms. 
 

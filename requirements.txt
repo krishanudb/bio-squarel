@@ -1,15 +1,15 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
-sparqlwrapper=2.0.0=pypi_0
-networkx=2.8.7=pypi_0
-spacy=3.4.1=pypi_0
-scikit-learn=1.2.1=py310h6a678d5_0
-scipy=1.10.0=py310hd5efca6_1
-nltk=3.7=pypi_0
-numpy=1.24.1=pypi_0
-pandas=1.5.3=py310h1128e8f_0
-inflect=6.0.0=pypi_0
-editdistance=0.6.0=pypi_0
-elastic-transport=8.4.0=pypi_0
-elasticsearch=7.17.0=pypi_0
-en-core-web-trf=3.4.0=pypi_0
+sparqlwrapper==2.0.0
+networkx==2.8.7
+spacy==3.4.1
+scikit-learn==1.2.1
+scipy==1.10.0
+nltk==3.7
+numpy==1.24.1
+pandas==1.5.3
+inflect==6.0.0
+editdistance==0.6.0
+elastic-transport==8.4.0
+elasticsearch==7.17.0
+fuzzysearch
