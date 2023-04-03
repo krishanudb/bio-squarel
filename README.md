@@ -32,11 +32,11 @@ The downloaded files are essentially the KG triples needed for the construction 
 ## 2. Set-up the relation and entity label search method:
 1. Download the entity labels from the following repo: https://figshare.com/articles/dataset/Wikidata_Biomedical_Labels/22360486
 2. Download and install elasticsearch (version 7.6.2) and start elasticsearch.
-    1. Download elasticsearch from here: https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz
+    1. Download elasticsearch from here: https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz <br>
         `wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz`
-    2. Install:
+    2. Install:<br>
         `tar -xzf elasticsearch-7.6.2-linux-x86_64.tar.gz`
-    3. Start elasticsearch:
+    3. Start elasticsearch:<br>
         `elasticsearch-7.6.2/bin/elasticsearch`    
 3. Go to the search_index_creation folder.
 4. Follow the notebook -- create_entity_index.ipynb to create the elasticsearch indexes for entity labels.  
@@ -96,4 +96,11 @@ Next, the search index should be created using them:
 
 1. Go to the codebase folder.
 2. Run the evaluate.ipynb file. This contains the codes for evaluating the method on all the questions from the test dataset.
+
+
+
+
+# REMAINING
+1. Relation index creation
+2. Question checking
 
