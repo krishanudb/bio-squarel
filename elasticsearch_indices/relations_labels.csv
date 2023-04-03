@@ -1,0 +1,965 @@
+uri,label
+<http://www.wikidata.org/entity/P4882>,segmental innervation
+<http://www.wikidata.org/entity/P1339>,number injured
+<http://www.wikidata.org/entity/P1339>,injury toll
+<http://www.wikidata.org/entity/P1339>,number of injured
+<http://www.wikidata.org/entity/P1339>,injured
+<http://www.wikidata.org/entity/P1339>,injuries
+<http://www.wikidata.org/entity/P1339>,non-fatal injuries
+<http://www.wikidata.org/entity/P1339>,wounded
+<http://www.wikidata.org/entity/P2841>,age of onset
+<http://www.wikidata.org/entity/P8011>,number of medical tests
+<http://www.wikidata.org/entity/P8011>,number tested
+<http://www.wikidata.org/entity/P789>,palatiblity
+<http://www.wikidata.org/entity/P789>,mushroom edibility
+<http://www.wikidata.org/entity/P789>,edibility
+<http://www.wikidata.org/entity/P688>,codes for
+<http://www.wikidata.org/entity/P688>,encodes
+<http://www.wikidata.org/entity/P3780>,active ingredient in
+<http://www.wikidata.org/entity/P4954>,may prevent
+<http://www.wikidata.org/entity/P3310>,muscle action
+<http://www.wikidata.org/entity/P10019>,term in higher taxon
+<http://www.wikidata.org/entity/P10019>,term in larger group
+<http://www.wikidata.org/entity/P10019>,term in higher-order taxon
+<http://www.wikidata.org/entity/P10019>,closest concept in higher taxon
+<http://www.wikidata.org/entity/P10019>,equivalent in higher taxon
+<http://www.wikidata.org/entity/P10019>,subclass of higher-taxon concept
+<http://www.wikidata.org/entity/P10019>,equivalent in larger group
+<http://www.wikidata.org/entity/P923>,medical examinations
+<http://www.wikidata.org/entity/P923>,diagnostic method
+<http://www.wikidata.org/entity/P923>,possible examinations
+<http://www.wikidata.org/entity/P923>,prognostic method
+<http://www.wikidata.org/entity/P923>,diagnosed/prognosed using technique
+<http://www.wikidata.org/entity/P923>,examinations
+<http://www.wikidata.org/entity/P923>,medical examination
+<http://www.wikidata.org/entity/P2300>,minimal lethal dose
+<http://www.wikidata.org/entity/P2300>,LDLo
+<http://www.wikidata.org/entity/P1561>,survivors
+<http://www.wikidata.org/entity/P1561>,number of survivors
+<http://www.wikidata.org/entity/P8339>,entry receptor
+<http://www.wikidata.org/entity/P702>,encoded by
+<http://www.wikidata.org/entity/P8789>,defining mutations
+<http://www.wikidata.org/entity/P3487>,maximal incubation period in humans
+<http://www.wikidata.org/entity/P7500>,comorbidity
+<http://www.wikidata.org/entity/P8193>,hardiness of plant
+<http://www.wikidata.org/entity/P4600>,polymer of
+<http://www.wikidata.org/entity/P8824>,attraction to
+<http://www.wikidata.org/entity/P684>,ortholog
+<http://www.wikidata.org/entity/P3433>,biological variant of
+<http://www.wikidata.org/entity/P189>,discovery place
+<http://www.wikidata.org/entity/P189>,findspot
+<http://www.wikidata.org/entity/P189>,location of discovered object
+<http://www.wikidata.org/entity/P189>,location of discovery
+<http://www.wikidata.org/entity/P189>,discovered at:
+<http://www.wikidata.org/entity/P189>,find location
+<http://www.wikidata.org/entity/P189>,find spot
+<http://www.wikidata.org/entity/P189>,found in
+<http://www.wikidata.org/entity/P189>,place of discovery
+<http://www.wikidata.org/entity/P189>,site of discovery
+<http://www.wikidata.org/entity/P1582>,comes from (taxon)
+<http://www.wikidata.org/entity/P1582>,made from
+<http://www.wikidata.org/entity/P1582>,product of taxon
+<http://www.wikidata.org/entity/P1582>,natural product of taxon
+<http://www.wikidata.org/entity/P1582>,produced by taxon
+<http://www.wikidata.org/entity/P1582>,derived from
+<http://www.wikidata.org/entity/P1582>,fruit of (taxon)
+<http://www.wikidata.org/entity/P233>,SMILES
+<http://www.wikidata.org/entity/P233>,canonical SMILES
+<http://www.wikidata.org/entity/P233>,Simplified Molecular Input Line Entry Specification
+<http://www.wikidata.org/entity/P9353>,does not have cause
+<http://www.wikidata.org/entity/P2250>,life expectancy
+<http://www.wikidata.org/entity/P2250>,lifespan
+<http://www.wikidata.org/entity/P2250>,life span
+<http://www.wikidata.org/entity/P1199>,mode of inheritance
+<http://www.wikidata.org/entity/P171>,parent taxon
+<http://www.wikidata.org/entity/P171>,taxon parent
+<http://www.wikidata.org/entity/P171>,higher taxon
+<http://www.wikidata.org/entity/P3772>,agonist of
+<http://www.wikidata.org/entity/P575>,discovery time
+<http://www.wikidata.org/entity/P575>,discovered
+<http://www.wikidata.org/entity/P575>,date discovered
+<http://www.wikidata.org/entity/P575>,time of invention
+<http://www.wikidata.org/entity/P575>,invented
+<http://www.wikidata.org/entity/P575>,time of discovery or invention
+<http://www.wikidata.org/entity/P575>,discovered on
+<http://www.wikidata.org/entity/P575>,time of discovery
+<http://www.wikidata.org/entity/P575>,date of invention
+<http://www.wikidata.org/entity/P575>,date of discovery
+<http://www.wikidata.org/entity/P575>,discovery date
+<http://www.wikidata.org/entity/P4844>,experimental variable
+<http://www.wikidata.org/entity/P4844>,intervention
+<http://www.wikidata.org/entity/P4844>,exposure
+<http://www.wikidata.org/entity/P4844>,research intervention
+<http://www.wikidata.org/entity/P4844>,experimental intervention
+<http://www.wikidata.org/entity/P4844>,treatment
+<http://www.wikidata.org/entity/P4844>,study intervention
+<http://www.wikidata.org/entity/P927>,anatomical location
+<http://www.wikidata.org/entity/P3771>,activator of
+<http://www.wikidata.org/entity/P4268>,half maximal inhibitory concentration (IC50)
+<http://www.wikidata.org/entity/P4268>,IC50
+<http://www.wikidata.org/entity/P4873>,isoschizomer
+<http://www.wikidata.org/entity/P5446>,defined limits
+<http://www.wikidata.org/entity/P5446>,reference value
+<http://www.wikidata.org/entity/P770>,cause of destruction
+<http://www.wikidata.org/entity/P770>,destroyed by
+<http://www.wikidata.org/entity/P770>,reason of failure
+<http://www.wikidata.org/entity/P4044>,therapeutic area
+<http://www.wikidata.org/entity/P31>,is a
+<http://www.wikidata.org/entity/P31>,has type
+<http://www.wikidata.org/entity/P31>,example of
+<http://www.wikidata.org/entity/P31>,is a type of
+<http://www.wikidata.org/entity/P31>,distinct element of
+<http://www.wikidata.org/entity/P31>,type
+<http://www.wikidata.org/entity/P31>,member of
+<http://www.wikidata.org/entity/P31>,is an individual
+<http://www.wikidata.org/entity/P31>,is an
+<http://www.wikidata.org/entity/P31>,distinct member of
+<http://www.wikidata.org/entity/P31>,∈
+<http://www.wikidata.org/entity/P31>,is a specific
+<http://www.wikidata.org/entity/P31>,is a(n)
+<http://www.wikidata.org/entity/P31>,has class
+<http://www.wikidata.org/entity/P31>,is a particular
+<http://www.wikidata.org/entity/P31>,unitary element of class
+<http://www.wikidata.org/entity/P31>,distinct individual member of
+<http://www.wikidata.org/entity/P31>,type of
+<http://www.wikidata.org/entity/P31>,main type
+<http://www.wikidata.org/entity/P31>,rdf:type
+<http://www.wikidata.org/entity/P31>,instance of
+<http://www.wikidata.org/entity/P31>,is an example of
+<http://www.wikidata.org/entity/P31>,unique individual of
+<http://www.wikidata.org/entity/P31>,is a unique
+<http://www.wikidata.org/entity/P694>,replaced name
+<http://www.wikidata.org/entity/P694>,replaced synonym (for nom. nov.)
+<http://www.wikidata.org/entity/P2240>,LD₅₀
+<http://www.wikidata.org/entity/P2240>,median lethal dose (LD50)
+<http://www.wikidata.org/entity/P2240>,LD50
+<http://www.wikidata.org/entity/P1605>,natural reservoir
+<http://www.wikidata.org/entity/P1605>,has natural reservoir
+<http://www.wikidata.org/entity/P9714>,taxon range
+<http://www.wikidata.org/entity/P9714>,range
+<http://www.wikidata.org/entity/P9714>,geographic range of taxon
+<http://www.wikidata.org/entity/P9714>,taxon geographic range
+<http://www.wikidata.org/entity/P9714>,range of taxon
+<http://www.wikidata.org/entity/P9714>,geographic range
+<http://www.wikidata.org/entity/P6099>,clinical trial phase
+<http://www.wikidata.org/entity/P689>,infects
+<http://www.wikidata.org/entity/P689>,condition endemic in
+<http://www.wikidata.org/entity/P689>,afflicts
+<http://www.wikidata.org/entity/P689>,affects
+<http://www.wikidata.org/entity/P1057>,on chromosome
+<http://www.wikidata.org/entity/P1057>,present in chromosome
+<http://www.wikidata.org/entity/P1057>,chromosome
+<http://www.wikidata.org/entity/P4179>,population
+<http://www.wikidata.org/entity/P4179>,tabular population
+<http://www.wikidata.org/entity/P10176>,type host
+<http://www.wikidata.org/entity/P10176>,taxon of symbiotype
+<http://www.wikidata.org/entity/P10176>,type-host
+<http://www.wikidata.org/entity/P10176>,symbiotype
+<http://www.wikidata.org/entity/P10176>,taxon of type-host
+<http://www.wikidata.org/entity/P10176>,symbiotype taxon
+<http://www.wikidata.org/entity/P10176>,type-host taxon
+<http://www.wikidata.org/entity/P10176>,type host taxon
+<http://www.wikidata.org/entity/P10176>,taxon of type host
+<http://www.wikidata.org/entity/P8485>,distribution map of taxon
+<http://www.wikidata.org/entity/P8485>,taxon range map geoshape
+<http://www.wikidata.org/entity/P2404>,time-weighted average exposure limit
+<http://www.wikidata.org/entity/P2404>,TWAEL
+<http://www.wikidata.org/entity/P5230>,chromosome count
+<http://www.wikidata.org/entity/P3395>,heart rate
+<http://www.wikidata.org/entity/P3395>,heart pulse
+<http://www.wikidata.org/entity/P6569>,taxon especially protected in area
+<http://www.wikidata.org/entity/P6569>,taxa especially protected in area
+<http://www.wikidata.org/entity/P1120>,qty fatalities
+<http://www.wikidata.org/entity/P1120>,death number
+<http://www.wikidata.org/entity/P1120>,death count
+<http://www.wikidata.org/entity/P1120>,number of fatalities
+<http://www.wikidata.org/entity/P1120>,dead
+<http://www.wikidata.org/entity/P1120>,qty deaths
+<http://www.wikidata.org/entity/P1120>,deaths
+<http://www.wikidata.org/entity/P1120>,death toll
+<http://www.wikidata.org/entity/P1120>,fatalities
+<http://www.wikidata.org/entity/P1120>,number of deaths
+<http://www.wikidata.org/entity/P4770>,is a hydrated form of
+<http://www.wikidata.org/entity/P4770>,hydrate of
+<http://www.wikidata.org/entity/P4770>,hydrated form of
+<http://www.wikidata.org/entity/P4770>,is a hydrate of
+<http://www.wikidata.org/entity/P1034>,food source
+<http://www.wikidata.org/entity/P1034>,ration
+<http://www.wikidata.org/entity/P1034>,food plant
+<http://www.wikidata.org/entity/P1034>,eats
+<http://www.wikidata.org/entity/P1034>,ecology (Fossilworks field  name)
+<http://www.wikidata.org/entity/P1034>,diet
+<http://www.wikidata.org/entity/P1034>,main food source
+<http://www.wikidata.org/entity/P7770>,egg incubation period
+<http://www.wikidata.org/entity/P4851>,maximum food additive use level
+<http://www.wikidata.org/entity/P1536>,immediate cause of
+<http://www.wikidata.org/entity/P1536>,has immediate result
+<http://www.wikidata.org/entity/P1536>,has immediate outcome
+<http://www.wikidata.org/entity/P1536>,immediate outcome
+<http://www.wikidata.org/entity/P1536>,has immediate effect
+<http://www.wikidata.org/entity/P1536>,immediate effect
+<http://www.wikidata.org/entity/P1536>,immediate result
+<http://www.wikidata.org/entity/P1536>,is immediate cause of
+<http://www.wikidata.org/entity/P1853>,blood type
+<http://www.wikidata.org/entity/P1853>,blood group
+<http://www.wikidata.org/entity/P4147>,has conjugate acid
+<http://www.wikidata.org/entity/P4147>,conjugate acid
+<http://www.wikidata.org/entity/P4147>,deprotonated form of
+<http://www.wikidata.org/entity/P1193>,prevalence
+<http://www.wikidata.org/entity/P4350>,salinity
+<http://www.wikidata.org/entity/P4350>,saltiness
+<http://www.wikidata.org/entity/P2077>,under pressure
+<http://www.wikidata.org/entity/P4599>,monomer of
+<http://www.wikidata.org/entity/P4914>,produces cohesive end
+<http://www.wikidata.org/entity/P5304>,type locality (biology)
+<http://www.wikidata.org/entity/P2561>,be known as
+<http://www.wikidata.org/entity/P2561>,referred to as
+<http://www.wikidata.org/entity/P2561>,label
+<http://www.wikidata.org/entity/P2561>,name
+<http://www.wikidata.org/entity/P2561>,known as
+<http://www.wikidata.org/entity/P2561>,be referred as
+<http://www.wikidata.org/entity/P2561>,aka
+<http://www.wikidata.org/entity/P2561>,also known as
+<http://www.wikidata.org/entity/P4875>,neoschizomer
+<http://www.wikidata.org/entity/P495>,country of origin
+<http://www.wikidata.org/entity/P495>,originates from
+<http://www.wikidata.org/entity/P495>,origin country
+<http://www.wikidata.org/entity/P495>,place of origin
+<http://www.wikidata.org/entity/P495>,CoO
+<http://www.wikidata.org/entity/P495>,comes from
+<http://www.wikidata.org/entity/P2374>,natural abundance
+<http://www.wikidata.org/entity/P2374>,relative abundance
+<http://www.wikidata.org/entity/P645>,stop coordinate
+<http://www.wikidata.org/entity/P645>,Genloc End
+<http://www.wikidata.org/entity/P645>,Genloc Stop
+<http://www.wikidata.org/entity/P645>,genomic end
+<http://www.wikidata.org/entity/P645>,genomic stop
+<http://www.wikidata.org/entity/P645>,stop
+<http://www.wikidata.org/entity/P61>,coined
+<http://www.wikidata.org/entity/P61>,inventor
+<http://www.wikidata.org/entity/P61>,invented
+<http://www.wikidata.org/entity/P61>,invented by
+<http://www.wikidata.org/entity/P61>,developed by
+<http://www.wikidata.org/entity/P61>,introduced by
+<http://www.wikidata.org/entity/P61>,created by
+<http://www.wikidata.org/entity/P61>,first described
+<http://www.wikidata.org/entity/P61>,discoverer
+<http://www.wikidata.org/entity/P61>,devised by
+<http://www.wikidata.org/entity/P61>,developer
+<http://www.wikidata.org/entity/P61>,discoverer or inventor
+<http://www.wikidata.org/entity/P61>,discovered by
+<http://www.wikidata.org/entity/P61>,inventor or discoverer
+<http://www.wikidata.org/entity/P1672>,this taxon is source of
+<http://www.wikidata.org/entity/P1672>,natural product
+<http://www.wikidata.org/entity/P1672>,produces natural product
+<http://www.wikidata.org/entity/P1672>,secretes
+<http://www.wikidata.org/entity/P1672>,has natural product
+<http://www.wikidata.org/entity/P1672>,produces
+<http://www.wikidata.org/entity/P1672>,this taxon is the source of
+<http://www.wikidata.org/entity/P1672>,this taxon is a source of
+<http://www.wikidata.org/entity/P3776>,inhibitor of
+<http://www.wikidata.org/entity/P3262>,has anatomical branch
+<http://www.wikidata.org/entity/P3094>,develops from
+<http://www.wikidata.org/entity/P3094>,evolves from
+<http://www.wikidata.org/entity/P3094>,evolved from
+<http://www.wikidata.org/entity/P3094>,developed from
+<http://www.wikidata.org/entity/P3094>,antecedent anatomical structure
+<http://www.wikidata.org/entity/P2076>,temperature
+<http://www.wikidata.org/entity/P4330>,wraps
+<http://www.wikidata.org/entity/P4330>,encloses
+<http://www.wikidata.org/entity/P4330>,holds
+<http://www.wikidata.org/entity/P4330>,stores
+<http://www.wikidata.org/entity/P4330>,contains
+<http://www.wikidata.org/entity/P4330>,has contents
+<http://www.wikidata.org/entity/P4330>,surrounds
+<http://www.wikidata.org/entity/P4330>,contents
+<http://www.wikidata.org/entity/P1420>,synonym of this name
+<http://www.wikidata.org/entity/P1420>,taxon synonym
+<http://www.wikidata.org/entity/P1420>,this taxon has as synonym
+<http://www.wikidata.org/entity/P1420>,taxonomic synonym
+<http://www.wikidata.org/entity/P3335>,hazard on site
+<http://www.wikidata.org/entity/P3335>,hazardousness
+<http://www.wikidata.org/entity/P3335>,associated hazard
+<http://www.wikidata.org/entity/P4628>,ICTV virus genome composition
+<http://www.wikidata.org/entity/P4628>,virus group
+<http://www.wikidata.org/entity/P3779>,negative allosteric modulator of
+<http://www.wikidata.org/entity/P3078>,standard enthalpy of formation
+<http://www.wikidata.org/entity/P3078>,standard heat of formation
+<http://www.wikidata.org/entity/P7971>,food calories
+<http://www.wikidata.org/entity/P7971>,kilocalories
+<http://www.wikidata.org/entity/P7971>,calories per serving
+<http://www.wikidata.org/entity/P7971>,food energy
+<http://www.wikidata.org/entity/P7971>,calorie count
+<http://www.wikidata.org/entity/P2789>,connects with
+<http://www.wikidata.org/entity/P2789>,intersects at grade
+<http://www.wikidata.org/entity/P2789>,affixed to
+<http://www.wikidata.org/entity/P2789>,meets at grade
+<http://www.wikidata.org/entity/P2789>,links to
+<http://www.wikidata.org/entity/P2789>,connected with
+<http://www.wikidata.org/entity/P2789>,connects to
+<http://www.wikidata.org/entity/P2789>,binds to
+<http://www.wikidata.org/entity/P2789>,contacts
+<http://www.wikidata.org/entity/P2789>,connected to
+<http://www.wikidata.org/entity/P2789>,attaches to
+<http://www.wikidata.org/entity/P2789>,mates with
+<http://www.wikidata.org/entity/P2789>,attached to
+<http://www.wikidata.org/entity/P2789>,couples with
+<http://www.wikidata.org/entity/P2067>,molecular mass
+<http://www.wikidata.org/entity/P2067>,displacement
+<http://www.wikidata.org/entity/P2067>,molecular weight
+<http://www.wikidata.org/entity/P2067>,mass
+<http://www.wikidata.org/entity/P2067>,weight
+<http://www.wikidata.org/entity/P1531>,parent(s) of this hybrid
+<http://www.wikidata.org/entity/P1531>,cultivar from
+<http://www.wikidata.org/entity/P1531>,parents of this hybrid
+<http://www.wikidata.org/entity/P1531>,parent of this hybrid
+<http://www.wikidata.org/entity/P1531>,parent of this hybri
+<http://www.wikidata.org/entity/P1531>,ree
+<http://www.wikidata.org/entity/P1531>,r cultivar
+<http://www.wikidata.org/entity/P2844>,incidence
+<http://www.wikidata.org/entity/P3781>,contains active ingredient
+<http://www.wikidata.org/entity/P3781>,includes active ingredients
+<http://www.wikidata.org/entity/P3781>,active ingredient
+<http://www.wikidata.org/entity/P3781>,has active ingredient
+<http://www.wikidata.org/entity/P3356>,positive diagnostic predictor for
+<http://www.wikidata.org/entity/P3356>,positive diagnostic predictor
+<http://www.wikidata.org/entity/P660>,EC enzyme classification
+<http://www.wikidata.org/entity/P660>,Enzyme Commission classification name
+<http://www.wikidata.org/entity/P3261>,anatomical branch of
+<http://www.wikidata.org/entity/P926>,postsynaptic connection
+<http://www.wikidata.org/entity/P3189>,innervated by
+<http://www.wikidata.org/entity/P105>,taxon rank
+<http://www.wikidata.org/entity/P105>,rank
+<http://www.wikidata.org/entity/P105>,type of taxon
+<http://www.wikidata.org/entity/P105>,taxonomic rank
+<http://www.wikidata.org/entity/P785>,hymenium attachment
+<http://www.wikidata.org/entity/P4777>,has boundary
+<http://www.wikidata.org/entity/P4777>,frontier
+<http://www.wikidata.org/entity/P4777>,boundary
+<http://www.wikidata.org/entity/P4777>,delimited by
+<http://www.wikidata.org/entity/P4777>,has 2D boundary
+<http://www.wikidata.org/entity/P4777>,border
+<http://www.wikidata.org/entity/P4777>,has border
+<http://www.wikidata.org/entity/P10091>,death rate
+<http://www.wikidata.org/entity/P10091>,mortality rate
+<http://www.wikidata.org/entity/P10614>,has surface
+<http://www.wikidata.org/entity/P9566>,nocturnal or diurnal animal
+<http://www.wikidata.org/entity/P9566>,diurnal or nocturnal animal
+<http://www.wikidata.org/entity/P9566>,diel cycle
+<http://www.wikidata.org/entity/P3773>,antagonist of
+<http://www.wikidata.org/entity/P1914>,gene insertion association with
+<http://www.wikidata.org/entity/P2407>,short-term exposure limit
+<http://www.wikidata.org/entity/P1603>,number infected
+<http://www.wikidata.org/entity/P1603>,number of occurrences
+<http://www.wikidata.org/entity/P1603>,case number
+<http://www.wikidata.org/entity/P1603>,infections reported
+<http://www.wikidata.org/entity/P1603>,number of infections
+<http://www.wikidata.org/entity/P1603>,occurrences reported
+<http://www.wikidata.org/entity/P1603>,number of cases
+<http://www.wikidata.org/entity/P1603>,cases reported
+<http://www.wikidata.org/entity/P1603>,total number of cases
+<http://www.wikidata.org/entity/P279>,whose instances are among
+<http://www.wikidata.org/entity/P279>,hyponym of
+<http://www.wikidata.org/entity/P279>,is a type of
+<http://www.wikidata.org/entity/P279>,has superclass
+<http://www.wikidata.org/entity/P279>,subset of
+<http://www.wikidata.org/entity/P279>,subtype of
+<http://www.wikidata.org/entity/P279>,⊆
+<http://www.wikidata.org/entity/P279>,sc
+<http://www.wikidata.org/entity/P279>,is a category of
+<http://www.wikidata.org/entity/P279>,is a subtype of
+<http://www.wikidata.org/entity/P279>,way of
+<http://www.wikidata.org/entity/P279>,⊂
+<http://www.wikidata.org/entity/P279>,whose instances ⊆ those of
+<http://www.wikidata.org/entity/P279>,form of
+<http://www.wikidata.org/entity/P279>,is also a
+<http://www.wikidata.org/entity/P279>,is necessarily also a
+<http://www.wikidata.org/entity/P279>,rdfs:subClassOf
+<http://www.wikidata.org/entity/P279>,type of
+<http://www.wikidata.org/entity/P279>,is thereby also a
+<http://www.wikidata.org/entity/P279>,subclass of
+<http://www.wikidata.org/entity/P279>,is a class of
+<http://www.wikidata.org/entity/P279>,subcategory of
+<http://www.wikidata.org/entity/P1917>,posttranslational modification association with
+<http://www.wikidata.org/entity/P1915>,gene inversion association with
+<http://www.wikidata.org/entity/P1060>,pathogen transmission process
+<http://www.wikidata.org/entity/P1060>,transmission process
+<http://www.wikidata.org/entity/P1060>,disease transmission process
+<http://www.wikidata.org/entity/P1060>,transmitted by
+<http://www.wikidata.org/entity/P1060>,mode of transmission
+<http://www.wikidata.org/entity/P8403>,theorised by
+<http://www.wikidata.org/entity/P2143>,genome size
+<http://www.wikidata.org/entity/P3364>,stereoisomer of
+<http://www.wikidata.org/entity/P9072>,originated from individual of taxon
+<http://www.wikidata.org/entity/P9072>,derived from organism type
+<http://www.wikidata.org/entity/P9072>,taxon of origin
+<http://www.wikidata.org/entity/P9072>,derived from organism of taxon
+<http://www.wikidata.org/entity/P2275>,WHO INN
+<http://www.wikidata.org/entity/P2275>,WHO international non-proprietary name
+<http://www.wikidata.org/entity/P2275>,World Health Organisation  international non-proprietary name
+<http://www.wikidata.org/entity/P2054>,density
+<http://www.wikidata.org/entity/P2054>,specific gravity
+<http://www.wikidata.org/entity/P925>,presynaptic connection
+<http://www.wikidata.org/entity/P4774>,biological phase
+<http://www.wikidata.org/entity/P1912>,gene deletion association with
+<http://www.wikidata.org/entity/P1056>,results in
+<http://www.wikidata.org/entity/P1056>,they make
+<http://www.wikidata.org/entity/P1056>,makes
+<http://www.wikidata.org/entity/P1056>,maker of
+<http://www.wikidata.org/entity/P1056>,commodity
+<http://www.wikidata.org/entity/P1056>,output
+<http://www.wikidata.org/entity/P1056>,products
+<http://www.wikidata.org/entity/P1056>,material produced
+<http://www.wikidata.org/entity/P1056>,has product
+<http://www.wikidata.org/entity/P1056>,creates
+<http://www.wikidata.org/entity/P1056>,produces
+<http://www.wikidata.org/entity/P1056>,product
+<http://www.wikidata.org/entity/P1056>,manufacturer of
+<http://www.wikidata.org/entity/P1056>,produced product
+<http://www.wikidata.org/entity/P1056>,product or material produced
+<http://www.wikidata.org/entity/P1056>,work produced
+<http://www.wikidata.org/entity/P1056>,manufactures
+<http://www.wikidata.org/entity/P1056>,produced material
+<http://www.wikidata.org/entity/P1056>,producer of
+<http://www.wikidata.org/entity/P4214>,maximum life span
+<http://www.wikidata.org/entity/P4214>,maximum age
+<http://www.wikidata.org/entity/P4214>,oldest recorded individual
+<http://www.wikidata.org/entity/P4214>,oldest observed
+<http://www.wikidata.org/entity/P4214>,highest observed lifespan
+<http://www.wikidata.org/entity/P566>,basionym
+<http://www.wikidata.org/entity/P4250>,defined daily dose
+<http://www.wikidata.org/entity/P4250>,DDD
+<http://www.wikidata.org/entity/P3512>,locomotion method
+<http://www.wikidata.org/entity/P3512>,means of locomotion
+<http://www.wikidata.org/entity/P3512>,locomotion
+<http://www.wikidata.org/entity/P8049>,number of hospitalized cases
+<http://www.wikidata.org/entity/P8049>,number of hospitalised cases
+<http://www.wikidata.org/entity/P8049>,number of hospitalisations
+<http://www.wikidata.org/entity/P8049>,number of hospitalizations
+<http://www.wikidata.org/entity/P2176>,prescribed drug
+<http://www.wikidata.org/entity/P2176>,treatment
+<http://www.wikidata.org/entity/P2176>,used for treatment
+<http://www.wikidata.org/entity/P2176>,drug or therapy used for treatment
+<http://www.wikidata.org/entity/P2176>,treated by
+<http://www.wikidata.org/entity/P3489>,pregnancy category
+<http://www.wikidata.org/entity/P1918>,altered regulation leads to
+<http://www.wikidata.org/entity/P8872>,has marker
+<http://www.wikidata.org/entity/P8872>,has       lineage marker
+<http://www.wikidata.org/entity/P8872>,lineage marker
+<http://www.wikidata.org/entity/P176>,assembled by
+<http://www.wikidata.org/entity/P176>,assembler
+<http://www.wikidata.org/entity/P176>,provider
+<http://www.wikidata.org/entity/P176>,product of
+<http://www.wikidata.org/entity/P176>,provided by
+<http://www.wikidata.org/entity/P176>,mfr
+<http://www.wikidata.org/entity/P176>,producer (of product)
+<http://www.wikidata.org/entity/P176>,builder
+<http://www.wikidata.org/entity/P176>,produced or manufactured by
+<http://www.wikidata.org/entity/P176>,built by
+<http://www.wikidata.org/entity/P176>,made by
+<http://www.wikidata.org/entity/P176>,manufacturer
+<http://www.wikidata.org/entity/P176>,manufactured by
+<http://www.wikidata.org/entity/P176>,maker
+<http://www.wikidata.org/entity/P9440>,pH
+<http://www.wikidata.org/entity/P9440>,pH value
+<http://www.wikidata.org/entity/P9440>,㏗
+<http://www.wikidata.org/entity/P5133>,has evaluation
+<http://www.wikidata.org/entity/P3465>,maximum frequency of audible sound
+<http://www.wikidata.org/entity/P361>,system of
+<http://www.wikidata.org/entity/P361>,component of
+<http://www.wikidata.org/entity/P361>,part of
+<http://www.wikidata.org/entity/P361>,meronym of
+<http://www.wikidata.org/entity/P361>,in
+<http://www.wikidata.org/entity/P361>,assembly of
+<http://www.wikidata.org/entity/P361>,within
+<http://www.wikidata.org/entity/P361>,collateral branch of
+<http://www.wikidata.org/entity/P361>,is part of
+<http://www.wikidata.org/entity/P361>,contained within
+<http://www.wikidata.org/entity/P361>,subgroup of
+<http://www.wikidata.org/entity/P361>,chain
+<http://www.wikidata.org/entity/P361>,subassembly of
+<http://www.wikidata.org/entity/P361>,branch of
+<http://www.wikidata.org/entity/P361>,element of
+<http://www.wikidata.org/entity/P361>,part of-property
+<http://www.wikidata.org/entity/P361>,subsystem of
+<http://www.wikidata.org/entity/P361>,merged with
+<http://www.wikidata.org/entity/P361>,section of
+<http://www.wikidata.org/entity/P361>,cadet branch of
+<http://www.wikidata.org/entity/P427>,type
+<http://www.wikidata.org/entity/P427>,taxonomic type
+<http://www.wikidata.org/entity/P427>,type genus
+<http://www.wikidata.org/entity/P427>,type species
+<http://www.wikidata.org/entity/P427>,type taxon
+<http://www.wikidata.org/entity/P2286>,arterial supply
+<http://www.wikidata.org/entity/P2286>,artery
+<http://www.wikidata.org/entity/P4988>,method
+<http://www.wikidata.org/entity/P4988>,estimation method
+<http://www.wikidata.org/entity/P4988>,test method
+<http://www.wikidata.org/entity/P4988>,methodology
+<http://www.wikidata.org/entity/P574>,year of scientific description
+<http://www.wikidata.org/entity/P574>,date of scientific description
+<http://www.wikidata.org/entity/P574>,taxon year
+<http://www.wikidata.org/entity/P574>,described in
+<http://www.wikidata.org/entity/P574>,taxon date
+<http://www.wikidata.org/entity/P574>,year of taxon publication
+<http://www.wikidata.org/entity/P574>,date of taxon description publication
+<http://www.wikidata.org/entity/P1537>,contributing factor of
+<http://www.wikidata.org/entity/P1537>,indirectly caused
+<http://www.wikidata.org/entity/P9977>,isotopically modified form of
+<http://www.wikidata.org/entity/P3354>,positive therapeutic predictor for
+<http://www.wikidata.org/entity/P3354>,positive therapeutic predictor
+<http://www.wikidata.org/entity/P4915>,isocaudomer
+<http://www.wikidata.org/entity/P5132>,suggests the existence of
+<http://www.wikidata.org/entity/P2288>,lymphatic drainage
+<http://www.wikidata.org/entity/P1606>,natural reservoir of
+<http://www.wikidata.org/entity/P4000>,has fruit type
+<http://www.wikidata.org/entity/P2548>,strand orientation
+<http://www.wikidata.org/entity/P2827>,flower color
+<http://www.wikidata.org/entity/P2827>,color of the flower
+<http://www.wikidata.org/entity/P2827>,colour of the flower
+<http://www.wikidata.org/entity/P2827>,flower colour
+<http://www.wikidata.org/entity/P2405>,ceiling exposure limit
+<http://www.wikidata.org/entity/P10322>,marsupium period
+<http://www.wikidata.org/entity/P10322>,period in the marsupium
+<http://www.wikidata.org/entity/P10322>,time in the pouch
+<http://www.wikidata.org/entity/P10322>,time spent in marsupium
+<http://www.wikidata.org/entity/P10322>,time spent in pouch
+<http://www.wikidata.org/entity/P10322>,pouch time
+<http://www.wikidata.org/entity/P10322>,pouch period
+<http://www.wikidata.org/entity/P10322>,marsupium time
+<http://www.wikidata.org/entity/P10322>,period in the pouch
+<http://www.wikidata.org/entity/P10322>,time in the marsupium
+<http://www.wikidata.org/entity/P183>,native in
+<http://www.wikidata.org/entity/P183>,native to
+<http://www.wikidata.org/entity/P183>,endemic in
+<http://www.wikidata.org/entity/P183>,endemic to
+<http://www.wikidata.org/entity/P183>,indigenous to
+<http://www.wikidata.org/entity/P1910>,decreased expression in
+<http://www.wikidata.org/entity/P2177>,solubility
+<http://www.wikidata.org/entity/P3492>,R0
+<http://www.wikidata.org/entity/P3492>,basic reproduction number
+<http://www.wikidata.org/entity/P5572>,expressed in
+<http://www.wikidata.org/entity/P3777>,antisense inhibitor of
+<http://www.wikidata.org/entity/P225>,valid name (ICZN)
+<http://www.wikidata.org/entity/P225>,correct name (ICNafp)
+<http://www.wikidata.org/entity/P225>,Latin name of a taxon (deprecated)
+<http://www.wikidata.org/entity/P225>,scientific name of a taxon
+<http://www.wikidata.org/entity/P225>,taxon name
+<http://www.wikidata.org/entity/P4545>,sexually homologous with
+<http://www.wikidata.org/entity/P784>,mushroom cap shape
+<http://www.wikidata.org/entity/P783>,hymenium type
+<http://www.wikidata.org/entity/P1995>,medical speciality
+<http://www.wikidata.org/entity/P1995>,medical specialty
+<http://www.wikidata.org/entity/P1995>,medical field
+<http://www.wikidata.org/entity/P1995>,health specialty
+<http://www.wikidata.org/entity/P1542>,outcome
+<http://www.wikidata.org/entity/P1542>,consequence
+<http://www.wikidata.org/entity/P1542>,causes
+<http://www.wikidata.org/entity/P1542>,implies
+<http://www.wikidata.org/entity/P1542>,has result
+<http://www.wikidata.org/entity/P1542>,led to
+<http://www.wikidata.org/entity/P1542>,cause of
+<http://www.wikidata.org/entity/P1542>,result
+<http://www.wikidata.org/entity/P1542>,has symptom
+<http://www.wikidata.org/entity/P1542>,has effect
+<http://www.wikidata.org/entity/P1542>,effect
+<http://www.wikidata.org/entity/P1542>,caused
+<http://www.wikidata.org/entity/P1542>,has outcome
+<http://www.wikidata.org/entity/P928>,Ligands
+<http://www.wikidata.org/entity/P928>,activating neurotransmitter
+<http://www.wikidata.org/entity/P1843>,common name
+<http://www.wikidata.org/entity/P1843>,taxon common name
+<http://www.wikidata.org/entity/P128>,regulates (molecular biology)
+<http://www.wikidata.org/entity/P6803>,taxon found at location
+<http://www.wikidata.org/entity/P6803>,taxa present in location
+<http://www.wikidata.org/entity/P6803>,taxa found at location
+<http://www.wikidata.org/entity/P6803>,taxon present in location
+<http://www.wikidata.org/entity/P8556>,extinction date
+<http://www.wikidata.org/entity/P8556>,date of extinction
+<http://www.wikidata.org/entity/P644>,Genloc From
+<http://www.wikidata.org/entity/P644>,genomic start
+<http://www.wikidata.org/entity/P644>,genomic from
+<http://www.wikidata.org/entity/P644>,Genloc Start
+<http://www.wikidata.org/entity/P644>,start coordinate
+<http://www.wikidata.org/entity/P644>,from
+<http://www.wikidata.org/entity/P6274>,concentration
+<http://www.wikidata.org/entity/P6274>,strength
+<http://www.wikidata.org/entity/P6884>,target muscle
+<http://www.wikidata.org/entity/P1913>,gene duplication association with
+<http://www.wikidata.org/entity/P1703>,is pollinated by
+<http://www.wikidata.org/entity/P1703>,pollinator
+<http://www.wikidata.org/entity/P1703>,pollination by
+<http://www.wikidata.org/entity/P3337>,generation time
+<http://www.wikidata.org/entity/P4425>,mtDNA haplogroup
+<http://www.wikidata.org/entity/P3778>,positive allosteric modulator of
+<http://www.wikidata.org/entity/P780>,symptoms and signs
+<http://www.wikidata.org/entity/P780>,clinical symptom
+<http://www.wikidata.org/entity/P780>,clinical sign
+<http://www.wikidata.org/entity/P780>,has symptom
+<http://www.wikidata.org/entity/P780>,symptoms
+<http://www.wikidata.org/entity/P10228>,controls flux of
+<http://www.wikidata.org/entity/P10228>,channel for
+<http://www.wikidata.org/entity/P10228>,facilitates flow of
+<http://www.wikidata.org/entity/P10228>,carries
+<http://www.wikidata.org/entity/P10228>,regulates flow of
+<http://www.wikidata.org/entity/P10228>,enables flow of
+<http://www.wikidata.org/entity/P10228>,transports
+<http://www.wikidata.org/entity/P405>,taxon author
+<http://www.wikidata.org/entity/P405>,described by
+<http://www.wikidata.org/entity/P405>,taxon authority
+<http://www.wikidata.org/entity/P405>,author citation
+<http://www.wikidata.org/entity/P6185>,is a tautomer of
+<http://www.wikidata.org/entity/P6185>,tautomer
+<http://www.wikidata.org/entity/P6185>,tautomer of
+<http://www.wikidata.org/entity/P6185>,tautomeric with
+<http://www.wikidata.org/entity/P2175>,capable of inhibiting or preventing pathological process
+<http://www.wikidata.org/entity/P2175>,medical condition treated
+<http://www.wikidata.org/entity/P2175>,treats disease
+<http://www.wikidata.org/entity/P2175>,treats
+<http://www.wikidata.org/entity/P2175>,disease treated
+<http://www.wikidata.org/entity/P2175>,treats medical condition
+<http://www.wikidata.org/entity/P3493>,legal status (medicine)
+<http://www.wikidata.org/entity/P3457>,case fatality ratio
+<http://www.wikidata.org/entity/P3457>,fatality rate
+<http://www.wikidata.org/entity/P3457>,case fatality rate
+<http://www.wikidata.org/entity/P3457>,case fatality
+<http://www.wikidata.org/entity/P3457>,case fatality risk
+<http://www.wikidata.org/entity/P3457>,CFR
+<http://www.wikidata.org/entity/P2975>,host taxon
+<http://www.wikidata.org/entity/P2975>,host
+<http://www.wikidata.org/entity/P788>,mushroom ecological type
+<http://www.wikidata.org/entity/P5588>,introduced to
+<http://www.wikidata.org/entity/P5588>,alien to
+<http://www.wikidata.org/entity/P5588>,invasive to
+<http://www.wikidata.org/entity/P8763>,birth rate
+<http://www.wikidata.org/entity/P527>,created from
+<http://www.wikidata.org/entity/P527>,assembled out of
+<http://www.wikidata.org/entity/P527>,consists of
+<http://www.wikidata.org/entity/P527>,has ingredients
+<http://www.wikidata.org/entity/P527>,parts
+<http://www.wikidata.org/entity/P527>,has component
+<http://www.wikidata.org/entity/P527>,includes
+<http://www.wikidata.org/entity/P527>,has part
+<http://www.wikidata.org/entity/P527>,ingredients
+<http://www.wikidata.org/entity/P527>,amalgamation of
+<http://www.wikidata.org/entity/P527>,has member
+<http://www.wikidata.org/entity/P527>,has branch
+<http://www.wikidata.org/entity/P527>,has as part
+<http://www.wikidata.org/entity/P527>,had part
+<http://www.wikidata.org/entity/P527>,divided by
+<http://www.wikidata.org/entity/P527>,includes part
+<http://www.wikidata.org/entity/P527>,holonym of
+<http://www.wikidata.org/entity/P527>,formed out of
+<http://www.wikidata.org/entity/P527>,created out of
+<http://www.wikidata.org/entity/P527>,contain
+<http://www.wikidata.org/entity/P527>,has ingredient
+<http://www.wikidata.org/entity/P527>,incorporates
+<http://www.wikidata.org/entity/P527>,have part
+<http://www.wikidata.org/entity/P527>,set of
+<http://www.wikidata.org/entity/P527>,composed of
+<http://www.wikidata.org/entity/P527>,formed from
+<http://www.wikidata.org/entity/P527>,contains
+<http://www.wikidata.org/entity/P527>,assembled from
+<http://www.wikidata.org/entity/P527>,has part(s)
+<http://www.wikidata.org/entity/P527>,comprised of
+<http://www.wikidata.org/entity/P527>,has parts
+<http://www.wikidata.org/entity/P527>,has part or parts
+<http://www.wikidata.org/entity/P7725>,clutch size
+<http://www.wikidata.org/entity/P7725>,litter size
+<http://www.wikidata.org/entity/P7725>,brood size
+<http://www.wikidata.org/entity/P4196>,cytogenetic location
+<http://www.wikidata.org/entity/P4196>,locus
+<http://www.wikidata.org/entity/P4196>,cytogenetic band
+<http://www.wikidata.org/entity/P1677>,index case of
+<http://www.wikidata.org/entity/P6153>,site of research
+<http://www.wikidata.org/entity/P6153>,research site
+<http://www.wikidata.org/entity/P6153>,place researched
+<http://www.wikidata.org/entity/P6153>,where researched
+<http://www.wikidata.org/entity/P6153>,location of research
+<http://www.wikidata.org/entity/P6153>,research location
+<http://www.wikidata.org/entity/P1660>,index case
+<http://www.wikidata.org/entity/P1660>,has index case
+<http://www.wikidata.org/entity/P1660>,primary case
+<http://www.wikidata.org/entity/P1660>,patient zero
+<http://www.wikidata.org/entity/P3775>,disrupting agent for
+<http://www.wikidata.org/entity/P3578>,autologous cell line
+<http://www.wikidata.org/entity/P3578>,sister cell line
+<http://www.wikidata.org/entity/P2406>,maximum peak exposure limit
+<http://www.wikidata.org/entity/P6507>,taxon author citation
+<http://www.wikidata.org/entity/P6507>,author citation for this taxon
+<http://www.wikidata.org/entity/P1050>,health condition
+<http://www.wikidata.org/entity/P1050>,health problem
+<http://www.wikidata.org/entity/P1050>,suffer from
+<http://www.wikidata.org/entity/P1050>,condition
+<http://www.wikidata.org/entity/P1050>,paralympic disability
+<http://www.wikidata.org/entity/P1050>,suffers from
+<http://www.wikidata.org/entity/P1050>,sickness
+<http://www.wikidata.org/entity/P1050>,illness
+<http://www.wikidata.org/entity/P1050>,disease
+<http://www.wikidata.org/entity/P1050>,disorder
+<http://www.wikidata.org/entity/P1050>,ailment
+<http://www.wikidata.org/entity/P1050>,medical condition
+<http://www.wikidata.org/entity/P1050>,health issue
+<http://www.wikidata.org/entity/P1050>,disability
+<http://www.wikidata.org/entity/P2839>,gait
+<http://www.wikidata.org/entity/P4269>,half maximal effective concentration (EC50)
+<http://www.wikidata.org/entity/P4269>,EC50
+<http://www.wikidata.org/entity/P868>,foods traditionally associated
+<http://www.wikidata.org/entity/P1916>,gene substitution association with
+<http://www.wikidata.org/entity/P3190>,innervates
+<http://www.wikidata.org/entity/P2542>,ADI
+<http://www.wikidata.org/entity/P2542>,acceptable daily intake
+<http://www.wikidata.org/entity/P4843>,development
+<http://www.wikidata.org/entity/P4843>,development of anatomical structure
+<http://www.wikidata.org/entity/P2414>,substrate of
+<http://www.wikidata.org/entity/P924>,medical treatment
+<http://www.wikidata.org/entity/P924>,therapy
+<http://www.wikidata.org/entity/P924>,health treatment
+<http://www.wikidata.org/entity/P924>,medical therapy
+<http://www.wikidata.org/entity/P924>,treatment
+<http://www.wikidata.org/entity/P924>,possible treatment
+<http://www.wikidata.org/entity/P4426>,Y-DNA Haplogroup
+<http://www.wikidata.org/entity/P3358>,positive prognostic predictor for
+<http://www.wikidata.org/entity/P3358>,positive prognostic predictor
+<http://www.wikidata.org/entity/P703>,present in taxon
+<http://www.wikidata.org/entity/P703>,found in taxon
+<http://www.wikidata.org/entity/P703>,found in species
+<http://www.wikidata.org/entity/P4863>,recognition sequence
+<http://www.wikidata.org/entity/P3464>,medicine marketing authorisation
+<http://www.wikidata.org/entity/P3464>,medicine marketing authorization
+<http://www.wikidata.org/entity/P636>,route of administration
+<http://www.wikidata.org/entity/P2974>,habitat
+<http://www.wikidata.org/entity/P1911>,increased expression in
+<http://www.wikidata.org/entity/P186>,constructed from
+<http://www.wikidata.org/entity/P186>,raw material
+<http://www.wikidata.org/entity/P186>,ingredient
+<http://www.wikidata.org/entity/P186>,reactant
+<http://www.wikidata.org/entity/P186>,built out of
+<http://www.wikidata.org/entity/P186>,source material
+<http://www.wikidata.org/entity/P186>,made of
+<http://www.wikidata.org/entity/P186>,built from
+<http://www.wikidata.org/entity/P186>,ingredients
+<http://www.wikidata.org/entity/P186>,ore
+<http://www.wikidata.org/entity/P186>,feedstock
+<http://www.wikidata.org/entity/P186>,formed out of
+<http://www.wikidata.org/entity/P186>,manufactured out of
+<http://www.wikidata.org/entity/P186>,construction material
+<http://www.wikidata.org/entity/P186>,media
+<http://www.wikidata.org/entity/P186>,constructed out of
+<http://www.wikidata.org/entity/P186>,crafted from
+<http://www.wikidata.org/entity/P186>,made from material
+<http://www.wikidata.org/entity/P186>,be made in
+<http://www.wikidata.org/entity/P186>,medium
+<http://www.wikidata.org/entity/P186>,material used
+<http://www.wikidata.org/entity/P186>,formed from
+<http://www.wikidata.org/entity/P186>,made from
+<http://www.wikidata.org/entity/P186>,manufactured from
+<http://www.wikidata.org/entity/P186>,crafted out of
+<http://www.wikidata.org/entity/P186>,made in
+<http://www.wikidata.org/entity/P970>,neurological function
+<http://www.wikidata.org/entity/P3739>,inflorescence
+<http://www.wikidata.org/entity/P5131>,medical findings
+<http://www.wikidata.org/entity/P5131>,possible medical findings
+<http://www.wikidata.org/entity/P5131>,medical finding
+<http://www.wikidata.org/entity/P3488>,minimal incubation period in humans
+<http://www.wikidata.org/entity/P2239>,first aid measures
+<http://www.wikidata.org/entity/P2239>,first aid response
+<http://www.wikidata.org/entity/P2101>,melting point
+<http://www.wikidata.org/entity/P2101>,freezing point
+<http://www.wikidata.org/entity/P3741>,seed dispersal
+<http://www.wikidata.org/entity/P9107>,number of vaccinations
+<http://www.wikidata.org/entity/P5134>,evaluation of
+<http://www.wikidata.org/entity/P2849>,produced by
+<http://www.wikidata.org/entity/P2849>,secreted by
+<http://www.wikidata.org/entity/P10241>,member of taxon
+<http://www.wikidata.org/entity/P10241>,is instance of taxon
+<http://www.wikidata.org/entity/P10241>,item is in taxon
+<http://www.wikidata.org/entity/P10241>,instance of taxon
+<http://www.wikidata.org/entity/P10241>,is an individual of the taxon
+<http://www.wikidata.org/entity/P10241>,taxon of item
+<http://www.wikidata.org/entity/P10241>,is individual of the taxon
+<http://www.wikidata.org/entity/P10241>,is an individual of taxon
+<http://www.wikidata.org/entity/P10241>,individual of taxon
+<http://www.wikidata.org/entity/P10241>,taxon of individual
+<http://www.wikidata.org/entity/P10241>,species
+<http://www.wikidata.org/entity/P10241>,taxon of the item
+<http://www.wikidata.org/entity/P10241>,is individual of taxon
+<http://www.wikidata.org/entity/P1704>,pollinates
+<http://www.wikidata.org/entity/P1704>,is pollinator of
+<http://www.wikidata.org/entity/P1704>,pollinator of
+<http://www.wikidata.org/entity/P4543>,listed ingredient
+<http://www.wikidata.org/entity/P4543>,ingredient components
+<http://www.wikidata.org/entity/P4543>,has listed ingredient
+<http://www.wikidata.org/entity/P4543>,has ingredient
+<http://www.wikidata.org/entity/P10630>,medical indication
+<http://www.wikidata.org/entity/P10630>,indication
+<http://www.wikidata.org/entity/P129>,physically interacts with
+<http://www.wikidata.org/entity/P7167>,does not have effect
+<http://www.wikidata.org/entity/P1909>,side effect
+<http://www.wikidata.org/entity/P1673>,chemical formula (general)
+<http://www.wikidata.org/entity/P1673>,general chemical formula
+<http://www.wikidata.org/entity/P1673>,general formula
+<http://www.wikidata.org/entity/P366>,used in
+<http://www.wikidata.org/entity/P366>,role
+<http://www.wikidata.org/entity/P366>,function
+<http://www.wikidata.org/entity/P366>,unit mission
+<http://www.wikidata.org/entity/P366>,used for
+<http://www.wikidata.org/entity/P366>,use
+<http://www.wikidata.org/entity/P366>,usage
+<http://www.wikidata.org/entity/P366>,utility
+<http://www.wikidata.org/entity/P366>,has use
+<http://www.wikidata.org/entity/P366>,used as
+<http://www.wikidata.org/entity/P366>,as
+<http://www.wikidata.org/entity/P366>,mission
+<http://www.wikidata.org/entity/P366>,purpose
+<http://www.wikidata.org/entity/P1478>,is proximately caused by
+<http://www.wikidata.org/entity/P1478>,has proximate causes
+<http://www.wikidata.org/entity/P1478>,immediate outcome of
+<http://www.wikidata.org/entity/P1478>,proximate effect of
+<http://www.wikidata.org/entity/P1478>,proximately caused by
+<http://www.wikidata.org/entity/P1478>,is immediately caused by
+<http://www.wikidata.org/entity/P1478>,immediately caused by
+<http://www.wikidata.org/entity/P1478>,has proximate cause
+<http://www.wikidata.org/entity/P1478>,proximate result of
+<http://www.wikidata.org/entity/P1478>,immediate result of
+<http://www.wikidata.org/entity/P1478>,immediate effect of
+<http://www.wikidata.org/entity/P1478>,has immediate causes
+<http://www.wikidata.org/entity/P1478>,proximate outcome of
+<http://www.wikidata.org/entity/P1478>,immediate cause
+<http://www.wikidata.org/entity/P1478>,has immediate cause
+<http://www.wikidata.org/entity/P2204>,minimum explosive concentration
+<http://www.wikidata.org/entity/P2102>,boiling point
+<http://www.wikidata.org/entity/P2718>,lowest-observed-adverse-effect level
+<http://www.wikidata.org/entity/P2718>,LOAEL
+<http://www.wikidata.org/entity/P3432>,parent cell line
+<http://www.wikidata.org/entity/P246>,chemical symbol
+<http://www.wikidata.org/entity/P246>,element symbol
+<http://www.wikidata.org/entity/P246>,formula
+<http://www.wikidata.org/entity/P4743>,animal breed
+<http://www.wikidata.org/entity/P4743>,breed
+<http://www.wikidata.org/entity/P2854>,disease burden
+<http://www.wikidata.org/entity/P680>,molecular function
+<http://www.wikidata.org/entity/P2289>,vein
+<http://www.wikidata.org/entity/P2289>,venous drainage
+<http://www.wikidata.org/entity/P2289>,venous return
+<http://www.wikidata.org/entity/P5166>,established from medical condition
+<http://www.wikidata.org/entity/P786>,stipe character
+<http://www.wikidata.org/entity/P3063>,gestation period
+<http://www.wikidata.org/entity/P2293>,genetic association
+<http://www.wikidata.org/entity/P2293>,genetically associated with
+<http://www.wikidata.org/entity/P682>,biological process
+<http://www.wikidata.org/entity/P1403>,original combination
+<http://www.wikidata.org/entity/P1403>,protonym
+<http://www.wikidata.org/entity/P3387>,minimum frequency of audible sound
+<http://www.wikidata.org/entity/P2712>,LC₅₀
+<http://www.wikidata.org/entity/P2712>,median lethal concentration (LC50)
+<http://www.wikidata.org/entity/P2712>,LC50
+<http://www.wikidata.org/entity/P3359>,negative prognostic predictor
+<http://www.wikidata.org/entity/P3359>,negative prognostic predictor for
+<http://www.wikidata.org/entity/P8010>,recover
+<http://www.wikidata.org/entity/P8010>,umber of cases
+<http://www.wikidata.org/entity/P8010>,number recovered
+<http://www.wikidata.org/entity/P8010>,recovered case
+<http://www.wikidata.org/entity/P8010>,umber of
+<http://www.wikidata.org/entity/P8010>,number of recoveries
+<http://www.wikidata.org/entity/P2107>,decomposition point
+<http://www.wikidata.org/entity/P1086>,atomic number
+<http://www.wikidata.org/entity/P1086>,atom number
+<http://www.wikidata.org/entity/P1086>,proton number
+<http://www.wikidata.org/entity/P1086>,number of protons
+<http://www.wikidata.org/entity/P1086>,Z
+<http://www.wikidata.org/entity/P3486>,normal respiratory rate
+<http://www.wikidata.org/entity/P276>,event location
+<http://www.wikidata.org/entity/P276>,in
+<http://www.wikidata.org/entity/P276>,neighbourhood
+<http://www.wikidata.org/entity/P276>,location
+<http://www.wikidata.org/entity/P276>,venue
+<http://www.wikidata.org/entity/P276>,place
+<http://www.wikidata.org/entity/P276>,based in
+<http://www.wikidata.org/entity/P276>,moveable object location
+<http://www.wikidata.org/entity/P276>,locale
+<http://www.wikidata.org/entity/P276>,neighborhood
+<http://www.wikidata.org/entity/P276>,locality
+<http://www.wikidata.org/entity/P276>,located in
+<http://www.wikidata.org/entity/P276>,place held
+<http://www.wikidata.org/entity/P276>,located
+<http://www.wikidata.org/entity/P276>,region
+<http://www.wikidata.org/entity/P276>,from
+<http://www.wikidata.org/entity/P276>,location of item
+<http://www.wikidata.org/entity/P276>,is in
+<http://www.wikidata.org/entity/P2597>,Gram staining
+<http://www.wikidata.org/entity/P274>,chemical formula
+<http://www.wikidata.org/entity/P274>,formula
+<http://www.wikidata.org/entity/P274>,molecular formula
+<http://www.wikidata.org/entity/P5642>,risk factor
+<http://www.wikidata.org/entity/P1590>,number of deaths and injuries
+<http://www.wikidata.org/entity/P1590>,number of casualties
+<http://www.wikidata.org/entity/P1590>,casualities
+<http://www.wikidata.org/entity/P47>,next to
+<http://www.wikidata.org/entity/P47>,adjacent to
+<http://www.wikidata.org/entity/P47>,shares border with
+<http://www.wikidata.org/entity/P47>,bordered by
+<http://www.wikidata.org/entity/P47>,border
+<http://www.wikidata.org/entity/P47>,borders clockwise
+<http://www.wikidata.org/entity/P3355>,negative therapeutic predictor for
+<http://www.wikidata.org/entity/P3355>,negative therapeutic predictor
+<http://www.wikidata.org/entity/P7862>,lactation period
+<http://www.wikidata.org/entity/P7862>,weaning
+<http://www.wikidata.org/entity/P7862>,period of lactation
+<http://www.wikidata.org/entity/P7862>,lactation
+<http://www.wikidata.org/entity/P1479>,indirect cause
+<http://www.wikidata.org/entity/P1479>,has contributing factor
+<http://www.wikidata.org/entity/P1479>,has contributing factors
+<http://www.wikidata.org/entity/P1479>,significant contributing factor
+<http://www.wikidata.org/entity/P1479>,contributing factor
+<http://www.wikidata.org/entity/P1479>,is/was indirectly caused by
+<http://www.wikidata.org/entity/P1479>,indirectly caused by
+<http://www.wikidata.org/entity/P2717>,NOAEL
+<http://www.wikidata.org/entity/P2717>,no-observed-adverse-effect level
+<http://www.wikidata.org/entity/P1349>,ploidy
+<http://www.wikidata.org/entity/P2329>,antagonist muscle
+<http://www.wikidata.org/entity/P5248>,medical evacuation to
+<http://www.wikidata.org/entity/P4864>,cutting site
+<http://www.wikidata.org/entity/P4864>,cutting site of restriction enzyme
+<http://www.wikidata.org/entity/P3490>,muscle origin
+<http://www.wikidata.org/entity/P3774>,blocker of
+<http://www.wikidata.org/entity/P1604>,biosafety level
+<http://www.wikidata.org/entity/P3357>,negative diagnostic predictor
+<http://www.wikidata.org/entity/P3357>,negative diagnostic predictor for
+<http://www.wikidata.org/entity/P2710>,lowest lethal concentration
+<http://www.wikidata.org/entity/P2710>,LCLo
+<http://www.wikidata.org/entity/P2710>,minimal lethal concentration
+<http://www.wikidata.org/entity/P3491>,muscle insertion
+<http://www.wikidata.org/entity/P9275>,inverse agonist of
+<http://www.wikidata.org/entity/P769>,drug interaction
+<http://www.wikidata.org/entity/P769>,pharmacological interaction
+<http://www.wikidata.org/entity/P769>,significant drug interaction
+<http://www.wikidata.org/entity/P681>,present in the cell component
+<http://www.wikidata.org/entity/P681>,subcellular localization
+<http://www.wikidata.org/entity/P681>,cell component
+<http://www.wikidata.org/entity/P1924>,target disease
+<http://www.wikidata.org/entity/P1924>,vaccine for
+<http://www.wikidata.org/entity/P697>,ex taxon author
+<http://www.wikidata.org/entity/P828>,initial cause
+<http://www.wikidata.org/entity/P828>,cause
+<http://www.wikidata.org/entity/P828>,due to
+<http://www.wikidata.org/entity/P828>,caused by
+<http://www.wikidata.org/entity/P828>,reason
+<http://www.wikidata.org/entity/P828>,has underlying cause
+<http://www.wikidata.org/entity/P828>,has causes
+<http://www.wikidata.org/entity/P828>,implied by
+<http://www.wikidata.org/entity/P828>,why
+<http://www.wikidata.org/entity/P828>,because
+<http://www.wikidata.org/entity/P828>,effect of
+<http://www.wikidata.org/entity/P828>,underlying cause
+<http://www.wikidata.org/entity/P828>,result of
+<http://www.wikidata.org/entity/P828>,has cause
+<http://www.wikidata.org/entity/P828>,outcome of
+<http://www.wikidata.org/entity/P828>,has reason
+<http://www.wikidata.org/entity/P828>,had reason
+<http://www.wikidata.org/entity/P828>,ultimate cause
+<http://www.wikidata.org/entity/P828>,originated due to
+<http://www.wikidata.org/entity/P828>,had cause
+<http://www.wikidata.org/entity/P828>,ultimate causes
+<http://www.wikidata.org/entity/P828>,had underlying cause
+<http://www.wikidata.org/entity/P3205>,patient of

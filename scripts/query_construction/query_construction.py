@@ -6,7 +6,12 @@ from sentence_processing.sentence_processing import *
 from relation_linking.relation_linking import *
 
 from SPARQLWrapper import SPARQLWrapper, JSON
-sparql = SPARQLWrapper("http://localhost:7200/repositories/wikidata_bio_2")
+
+
+
+SPARQL_endpoint = "http://localhost:7200/repositories/wikidata_bio_2"
+
+sparql = SPARQLWrapper(SPARQL_endpoint)
 
 
 def create_final_query(focus, target, relation, direction):

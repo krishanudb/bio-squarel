@@ -6,7 +6,7 @@ from sentence_processing.sentence_processing import find_class_of
 from Elastic.searchIndex import *
 
 
-relation_index = "wikidata_bio_subset_3_relation_updated_index"
+relation_index = "wikidata_bio_relation_index"
 sparql = SPARQLWrapper("http://localhost:7200/repositories/wikidata_bio_2")
 
 

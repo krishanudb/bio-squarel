@@ -10,14 +10,13 @@ from subgraph_gen.subgraph_gen import *
 from Elastic import searchIndex as wiki_search_elastic
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+entity_index = "wikidata_bio_entity_index"
+
+SPARQL_endpoint = "http://localhost:7200/repositories/wikidata_bio_2"
+
+sparql = SPARQLWrapper(SPARQL_endpoint)
 
 
-### OLD ONE
-# entity_index = "wikidata_overall_en_new_index" 
-
-
-entity_index = "wikidata_bio_subset_3_entity_index"
-sparql = SPARQLWrapper("http://localhost:7200/repositories/wikidata_bio_2")
 
 
 nlp = spacy.load('en_core_web_trf')
@@ -617,9 +616,9 @@ def find_ER_candidates_from_questions(q, nlp, model, feature_extractor, alpha = 
     
     for term in entity_phrases:
         # print([x[1] for x in wiki_search_elastic.entitySearch(term, entity_index)[:10]])
-        matches = [[x[1].split(":")[-1], x[2]] for x in wiki_search_elastic.entitySearch(term, entity_index)[:10]]
+        matches = [[x[1][1:-1].split("/")[-1], x[2]] for x in wiki_search_elastic.entitySearch(term, entity_index)[:10]]
         if len(matches) == 0:
-            matches = [[x[1].split(":")[-1], x[2]] for x in wiki_search_elastic.entitySearch(term, entity_index, 70)[:10]]
+            matches = [[x[1][1:-1].split("/")[-1], x[2]] for x in wiki_search_elastic.entitySearch(term, entity_index, 70)[:10]]
 
         for ent in matches:
             if ent not in [x[0] for x in entity_matches]:

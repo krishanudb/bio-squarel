@@ -10,7 +10,8 @@ In order to run the methodology of this repo, the following steps need to be fol
 ## 0. Set up the environment:
 
 Create a new environment using the requirements.txt file. The recommended way is to use conda to manage and create a new environment:<br>
-    `conda create --name <ENV_NAME> conda create -n bst python=3.9
+    `
+    conda create --name <ENV_NAME> conda create -n bst python=3.9
 
     conda activate <ENV_NAME>
 
@@ -18,7 +19,8 @@ Create a new environment using the requirements.txt file. The recommended way is
 
     pip install -r requirements.txt
     
-    python -m spacy download en_core_web_trf`
+    python -m spacy download en_core_web_trf
+    `
 
 
 ## 1. Get the biomedical sub Knowledge Graph of Wikidata along with associated files from here: 
@@ -39,9 +41,13 @@ The downloaded files are essentially the KG triples needed for the construction 
     3. Start elasticsearch:<br>
         `elasticsearch-7.6.2/bin/elasticsearch`    
 3. Go to the search_index_creation folder.
-4. Follow the notebook -- create_entity_index.ipynb to create the elasticsearch indexes for entity labels.  
-5. Follow the notebook -- create_relation_index.ipynb to create the elasticsearch indexes for relation labels.
+    
+4. The extracted *.rdf files should be placed in the elasticsearch_indexes folder.
+5. Next, the search index should be created using them:
 
+    1. For the entity label search index, follow the notebook elasticsearch_indexes/entity_to_elasticsearch_index.ipynb
+
+    2. For the relation or predicate label search index, follow the notebook elasticsearch_indexes/relation_to_elasticsearch_index.ipynb
 
 These search indexes can be used for efficiently searching for entities' and predicates' labels using their surface forms. 
 
@@ -80,19 +86,8 @@ Easiest Way to do this is using the GraphDB docker image:
     Using the above procedure, the data will be loaded into a single KG (repository) called wikidata_life_sciences.
     Users can query the KG using either the GUI (GraphDB Workbench) or API.
 
-## 4. Create the search indexes required for Entity and Relation Linking
 
-A search engine using the entity and relation labels of Wikidata needs to be created. 
-    
-First, the files for creating these indexes need to be downloaded from here: 
-The extracted *.rdf files should be placed in the elasticsearch_indexes folder.
-Next, the search index should be created using them:
-
-1. For the entity label search index, follow the notebook elasticsearch_indexes/entity_to_elasticsearch_index.ipynb
-
-2. For the relation or predicate label search index, follow the notebook elasticsearch_indexes/relation_to_elasticsearch_index.ipynb
-
-## 5. All the building blocks are set up. Now evaluation can be carried out.
+## 4. All the building blocks are set up. Now evaluation can be carried out.
 
 1. Go to the codebase folder.
 2. Run the evaluate.ipynb file. This contains the codes for evaluating the method on all the questions from the test dataset.
@@ -101,6 +96,5 @@ Next, the search index should be created using them:
 
 
 # REMAINING
-1. Relation index creation
-2. Question checking
+1. Question checking
 

@@ -6,7 +6,9 @@ import networkx as nx
 import itertools
 
 
-sparql = SPARQLWrapper("http://localhost:7200/repositories/wikidata_bio_2")
+SPARQL_endpoint = "http://localhost:7200/repositories/wikidata_bio_2"
+
+sparql = SPARQLWrapper(SPARQL_endpoint)
 
 import tqdm.notebook as tq
 
@@ -28,6 +30,7 @@ def find_outgoing_nodes_df(entity, limit):
 		filter(?b not in (skos:prefLabel, skos:altLabel, schema:description)) .
 		}}}}
 		limit {}""".format(entity, limit)
+# 	print(query)
 	sparql.setQuery(query)
 	sparql.method = 'GET'
 	sparql.setReturnFormat(JSON)
