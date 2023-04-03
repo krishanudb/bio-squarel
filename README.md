@@ -11,11 +11,11 @@ In order to run the methodology of this repo, the following steps need to be fol
 
 Create a new environment using the requirements.txt file. The recommended way is to use conda to manage and create a new environment:<br>
     ```
-    conda create --name <ENV_NAME> conda create -n bst python=3.9
-    conda activate <ENV_NAME>
-    conda install jupyter
-    pip install -r requirements.txt
-    python -m spacy download en_core_web_trf
+    conda create --name <ENV_NAME> conda create -n bst python=3.9<br>
+    conda activate <ENV_NAME><br>
+    conda install jupyter<br>
+    pip install -r requirements.txt<br>
+    python -m spacy download en_core_web_trf<br>
     ```
 
 
