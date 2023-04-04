@@ -34,10 +34,11 @@ The downloaded files are essentially the KG triples needed for the construction 
         `tar -xzf elasticsearch-7.6.2-linux-x86_64.tar.gz`
     3. Start elasticsearch:<br>
         `elasticsearch-7.6.2/bin/elasticsearch`    
-3. Go to the search_index_creation folder.
+This would start the elasticsearch tool. We still need to create the search indexes in order to actually search.
+3. Go to the elasticsearch_indexes folder.
     
 4. The extracted *.rdf files should be placed in the elasticsearch_indexes folder.
-5. Next, the search index should be created using them:
+5. Next, the search index should be created:
 
     1. For the entity label search index, follow the notebook elasticsearch_indexes/entity_to_elasticsearch_index.ipynb
 
@@ -84,11 +85,5 @@ Easiest Way to do this is using the GraphDB docker image:
 ## 4. All the building blocks are set up. Now evaluation can be carried out.
 
 1. Go to the codebase folder.
-2. Run the evaluate.ipynb file. This contains the codes for evaluating the method on all the questions from the test dataset.
-
-
-
-
-# REMAINING
-1. Question checking
-
+2. Run the evaluate.ipynb notebook. This contains the codes for evaluating the method on all the questions from the test dataset.
+3. In order to run the method on any question, use the get_answers.ipynb notebook.
